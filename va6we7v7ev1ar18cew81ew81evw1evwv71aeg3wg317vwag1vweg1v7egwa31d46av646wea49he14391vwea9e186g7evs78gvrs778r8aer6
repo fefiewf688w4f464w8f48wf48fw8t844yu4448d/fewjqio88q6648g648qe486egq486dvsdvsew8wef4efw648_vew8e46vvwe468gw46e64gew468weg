@@ -1,0 +1,3247 @@
+local OfficialElectrowareKey = Instance.new("ScreenGui")
+local KeyFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local Frame = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local WrongKey = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local CoreGui = game:GetService("CoreGui")
+
+OfficialElectrowareKey.Name = "OfficialElectrowareKey"
+OfficialElectrowareKey.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+OfficialElectrowareKey.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+OfficialElectrowareKey.Parent = game.CoreGui
+OfficialElectrowareKey.ResetOnSpawn = false
+
+KeyFrame.Name = "KeyFrame"
+KeyFrame.Parent = OfficialElectrowareKey
+KeyFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+KeyFrame.Position = UDim2.new(0.409835786, 0, 0.25933069, 0)
+KeyFrame.Size = UDim2.new(0, 345, 0, 403)
+
+UICorner.CornerRadius = UDim.new(0, 1)
+UICorner.Parent = KeyFrame
+
+TextBox.Parent = KeyFrame
+TextBox.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+TextBox.Position = UDim2.new(0.168115944, 0, 0.446650118, 0)
+TextBox.Size = UDim2.new(0, 227, 0, 63)
+TextBox.Font = Enum.Font.GothamBlack
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+
+UICorner_2.CornerRadius = UDim.new(0, 1)
+UICorner_2.Parent = TextBox
+
+TextLabel.Parent = KeyFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0956521779, 0, 0.31017372, 0)
+TextLabel.Size = UDim2.new(0, 278, 0, 55)
+TextLabel.Font = Enum.Font.GothamBlack
+TextLabel.Text = "Please enter a Key!"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextButton.Parent = KeyFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+TextButton.Position = UDim2.new(0.284057975, 0, 0.655086875, 0)
+TextButton.Size = UDim2.new(0, 149, 0, 50)
+TextButton.Font = Enum.Font.GothamBlack
+TextButton.Text = "Enter"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:Connect(function()
+		if TextBox.Text == "DEVELOPERKEY_ONLY_ID8165" or TextBox.Text == "qfh__4E8_ELECTROWAREBACKLESSGOOO" or TextBox.Text == "ONLYWXEEINOWPLEASE" then
+		OfficialElectrowareKey:Destroy()
+		local Electroware = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local SelectionFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local ReanimationsButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local FeScriptsButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local NeededHatsButton = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local CreditsButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UpdatesButton = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextPanelFrame = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local xButton = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local ReanimationsFrame = Instance.new("ScrollingFrame")
+local UICorner_10 = Instance.new("UICorner")
+local Reanimv1Button = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Reanimv1Buttondhm = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Reanimv1Buttondhm_2 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local FeScriptsFrame = Instance.new("ScrollingFrame")
+local FePenisv1Button = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local FePenisv2Button = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local FePenisv3Button = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local FeAssAndBoobsButton = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
+local FEthingsoveryourHeadButton = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local NeededHatsFrame = Instance.new("ScrollingFrame")
+local CFPV1HI = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local CFPV2HI = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local CFPV3HI = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local CFAABHI = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
+local CFTOYHHI = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local CreditsFrame = Instance.new("ScrollingFrame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_26 = Instance.new("UICorner")
+local UpdatesFrame = Instance.new("ScrollingFrame")
+local UICorner_27 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local CoreGui = game:GetService("CoreGui")
+
+Electroware.Name = "Electroware"
+Electroware.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Electroware.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Electroware.Parent = game.CoreGui
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Electroware
+MainFrame.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+MainFrame.Position = UDim2.new(0.238166779, 0, 0.230035752, 0)
+MainFrame.Size = UDim2.new(0, 566, 0, 323)
+MainFrame.Active = true
+MainFrame.Draggable = true
+
+UICorner.CornerRadius = UDim.new(0, 1)
+UICorner.Parent = MainFrame
+
+SelectionFrame.Name = "SelectionFrame"
+SelectionFrame.Parent = MainFrame
+SelectionFrame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+SelectionFrame.Size = UDim2.new(0, 147, 0, 323)
+
+UICorner_2.CornerRadius = UDim.new(0, 1)
+UICorner_2.Parent = SelectionFrame
+
+ReanimationsButton.Name = "ReanimationsButton"
+ReanimationsButton.Parent = SelectionFrame
+ReanimationsButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+ReanimationsButton.Position = UDim2.new(0, 0, 0.198142409, 0)
+ReanimationsButton.Size = UDim2.new(0, 147, 0, 40)
+ReanimationsButton.Font = Enum.Font.GothamBlack
+ReanimationsButton.Text = "Reanimations"
+ReanimationsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ReanimationsButton.TextSize = 14.000
+
+UICorner_3.CornerRadius = UDim.new(0, 1)
+UICorner_3.Parent = ReanimationsButton
+
+FeScriptsButton.Name = "FeScriptsButton"
+FeScriptsButton.Parent = SelectionFrame
+FeScriptsButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+FeScriptsButton.Position = UDim2.new(0, 0, 0.32198143, 0)
+FeScriptsButton.Size = UDim2.new(0, 147, 0, 40)
+FeScriptsButton.Font = Enum.Font.GothamBlack
+FeScriptsButton.Text = "FE Scripts"
+FeScriptsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FeScriptsButton.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 1)
+UICorner_4.Parent = FeScriptsButton
+
+NeededHatsButton.Name = "NeededHatsButton"
+NeededHatsButton.Parent = SelectionFrame
+NeededHatsButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+NeededHatsButton.Position = UDim2.new(0, 0, 0.445820451, 0)
+NeededHatsButton.Size = UDim2.new(0, 147, 0, 40)
+NeededHatsButton.Font = Enum.Font.GothamBlack
+NeededHatsButton.Text = "Needed Hats"
+NeededHatsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+NeededHatsButton.TextSize = 14.000
+
+UICorner_5.CornerRadius = UDim.new(0, 1)
+UICorner_5.Parent = NeededHatsButton
+
+CreditsButton.Name = "CreditsButton"
+CreditsButton.Parent = SelectionFrame
+CreditsButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+CreditsButton.Position = UDim2.new(0, 0, 0.569659472, 0)
+CreditsButton.Size = UDim2.new(0, 147, 0, 40)
+CreditsButton.Font = Enum.Font.GothamBlack
+CreditsButton.Text = "Credits"
+CreditsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+CreditsButton.TextSize = 14.000
+
+UICorner_6.CornerRadius = UDim.new(0, 1)
+UICorner_6.Parent = CreditsButton
+
+UpdatesButton.Name = "UpdatesButton"
+UpdatesButton.Parent = SelectionFrame
+UpdatesButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+UpdatesButton.Position = UDim2.new(0, 0, 0.693498492, 0)
+UpdatesButton.Size = UDim2.new(0, 147, 0, 40)
+UpdatesButton.Font = Enum.Font.GothamBlack
+UpdatesButton.Text = "Updates"
+UpdatesButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+UpdatesButton.TextSize = 14.000
+
+UICorner_7.CornerRadius = UDim.new(0, 1)
+UICorner_7.Parent = UpdatesButton
+
+TextPanelFrame.Name = "TextPanelFrame"
+TextPanelFrame.Parent = MainFrame
+TextPanelFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextPanelFrame.Size = UDim2.new(0, 566, 0, 64)
+
+UICorner_8.CornerRadius = UDim.new(0, 1)
+UICorner_8.Parent = TextPanelFrame
+
+TextLabel.Parent = TextPanelFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.203180209, 0, 0.109375, 0)
+TextLabel.Size = UDim2.new(0, 335, 0, 50)
+TextLabel.Font = Enum.Font.GothamBlack
+TextLabel.Text = "Electroware v1.1"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+ImageLabel.Parent = TextPanelFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.0123674916, 0, 0.140625, 0)
+ImageLabel.Size = UDim2.new(0, 53, 0, 46)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=9296791795"
+
+xButton.Name = "xButton"
+xButton.Parent = TextPanelFrame
+xButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+xButton.Position = UDim2.new(0.92756182, 0, 0, 0)
+xButton.Size = UDim2.new(0, 41, 0, 34)
+xButton.Font = Enum.Font.GothamBlack
+xButton.Text = "x"
+xButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+xButton.TextSize = 14.000
+xButton.MouseButton1Down:Connect(function()
+	Electroware:Destroy()
+end)
+
+UICorner_9.CornerRadius = UDim.new(0, 1)
+UICorner_9.Parent = xButton
+
+ReanimationsFrame.Name = "ReanimationsFrame"
+ReanimationsFrame.Parent = MainFrame
+ReanimationsFrame.Active = true
+ReanimationsFrame.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ReanimationsFrame.Position = UDim2.new(0.259717315, 0, 0.198142409, 0)
+ReanimationsFrame.Size = UDim2.new(0, 419, 0, 259)
+ReanimationsFrame.Visible = false
+
+UICorner_10.CornerRadius = UDim.new(0, 1)
+UICorner_10.Parent = ReanimationsFrame
+
+Reanimv1Button.Name = "Reanimv1Button"
+Reanimv1Button.Parent = ReanimationsFrame
+Reanimv1Button.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Reanimv1Button.Position = UDim2.new(0.145584732, 0, 0.0227827672, 0)
+Reanimv1Button.Size = UDim2.new(0, 297, 0, 37)
+Reanimv1Button.Font = Enum.Font.GothamBlack
+Reanimv1Button.Text = "Reanimation v1"
+Reanimv1Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reanimv1Button.TextSize = 14.000
+Reanimv1Button.MouseButton1Down:Connect(function()
+	for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+		if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then
+			game:GetService("RunService").Heartbeat:connect(function()
+				v.Velocity = Vector3.new(0,35,0)
+				wait(0.5)
+			end)
+		end
+	end
+
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Electroware Notification";
+		Text = "Elecroware Netless executed please wait untill your health is 0";
+		Icon = "http://www.roblox.com/asset/?id=8724185099"})
+
+	local netboost = 100 --velocity 
+	--netboost usage: 
+	--set to false to disable
+	--vector3 if you dont want the velocity to change
+	--number to change the velocity in real time with magnitude equal to the number
+	local simradius = "shp" --simulation radius method
+	--"shp" - sethiddenproperty
+	--"ssr" - setsimulationradius
+	--false - disable
+	local antiragdoll = true --removes hingeConstraints and ballSocketConstraints from your character
+	local newanimate = true --disables the animate script and enable after reanimation
+	local discharscripts = true --disables all localScripts parented to your character before reanimation
+	local R15toR6 = true --tries to convert your character to r6 if its r15
+	local addtools = false --puts all tools from backpack to character and lets you hold them after reanimation
+	local loadtime = game:GetService("Players").RespawnTime + 0.5 --anti respawn delay
+	local method = 3 --reanimation method
+	--methods:
+	--0 - breakJoints (takes [loadtime] seconds to laod)
+	--1 - limbs
+	--2 - limbs + anti respawn
+	--3 - limbs + breakJoints after [loadtime] seconds
+	--4 - remove humanoid + breakJoints
+	--5 - remove humanoid + limbs
+	local alignmode = 2 --AlignPosition mode
+	--modes:
+	--1 - AlignPosition rigidity enabled true
+	--2 - 2 AlignPositions rigidity enabled both true and false
+	--3 - AlignPosition rigidity enabled false
+	local hedafterneck = true --disable aligns for head and enable after neck is removed
+
+	local lp = game:GetService("Players").LocalPlayer
+	local rs = game:GetService("RunService")
+	local stepped = rs.Stepped
+	local heartbeat = rs.Heartbeat
+	local renderstepped = rs.RenderStepped
+	local sg = game:GetService("StarterGui")
+	local ws = game:GetService("Workspace")
+
+	local c = lp.Character
+
+	local function gp(parent, name, className)
+		local ret = nil
+		if parent then
+			for i, v in pairs(parent:GetChildren()) do
+				if (v.Name == name) and v:IsA(className) then
+					ret = v
+				end
+			end
+		end
+		return ret
+	end
+
+	local function align(Part0, Part1)
+		Part0.CustomPhysicalProperties = PhysicalProperties.new(0.0001, 0.0001, 0.0001, 0.0001, 0.0001)
+
+		local att1 = Instance.new("Attachment")
+		att1.Orientation = Vector3.new(0, 0, 0)
+		att1.Position = Vector3.new(0, 0, 0)
+		att1.Archivable = true
+		local att0 = att1:Clone()
+
+		if (alignmode == 1) or (alignmode == 2) then
+			local ape = Instance.new("AlignPosition", att0)
+			ape.ApplyAtCenterOfMass = false
+			ape.MaxForce = math.huge
+			ape.MaxVelocity = math.huge
+			ape.ReactionForceEnabled = false
+			ape.Responsiveness = 200
+			ape.Attachment1 = att1
+			ape.Attachment0 = att0
+			ape.Name = "AlignPositionRtrue"
+			ape.RigidityEnabled = true
+		end
+
+		if (alignmode == 2) or (alignmode == 3) then
+			local apd = Instance.new("AlignPosition", att0)
+			apd.ApplyAtCenterOfMass = false
+			apd.MaxForce = math.huge
+			apd.MaxVelocity = math.huge
+			apd.ReactionForceEnabled = false
+			apd.Responsiveness = 200
+			apd.Attachment1 = att1
+			apd.Attachment0 = att0
+			apd.Name = "AlignPositionRfalse"
+			apd.RigidityEnabled = false
+		end
+
+		local ao = Instance.new("AlignOrientation", att0)
+		ao.MaxAngularVelocity = math.huge
+		ao.MaxTorque = math.huge
+		ao.PrimaryAxisOnly = false
+		ao.ReactionTorqueEnabled = false
+		ao.Responsiveness = 200
+		ao.Attachment1 = att1
+		ao.Attachment0 = att0
+		ao.RigidityEnabled = false
+
+		att1.Parent = Part1
+		att1.Name = "att1_" .. Part1.Name
+
+		att0.Parent = Part0
+		att0.Name = "att0_" .. Part0.Name
+
+		if typeof(netboost) == "Vector3" then
+			spawn(function()
+				local vel = Vector3.new(0, 0, 0)
+				while Part0 and Part0.Parent do
+					Part0.Velocity = vel
+					heartbeat:Wait()
+					if Part0 and Part0.Parent then
+						vel = Part0.Velocity
+						Part0.Velocity = netboost
+						stepped:Wait()
+					end
+				end
+			end)
+		end
+
+		if typeof(netboost) == "number" then
+			spawn(function()
+				local vel = Vector3.new(0, 0, 0)
+				while Part0 and Part0.Parent do
+					Part0.Velocity = vel
+					heartbeat:Wait()
+					if Part0 and Part0.Parent then
+						local newvel = vel
+						local mag = newvel.Magnitude
+						if mag < 0.1 then
+							newvel = Vector3.new(0, netboost, 0)
+						else
+							local multiplier = netboost / mag
+							newvel *= Vector3.new(multiplier,  multiplier, multiplier)
+						end
+						vel = Part0.Velocity
+						Part0.Velocity = newvel
+						stepped:Wait()
+					end
+				end
+			end)
+		end
+	end
+
+	local function respawnrequest()
+		local c = lp.Character
+		local ccfr = ws.CurrentCamera.CFrame
+		local fc = Instance.new("Model")
+		local nh = Instance.new("Humanoid", fc)
+		lp.Character = fc
+		nh.Health = 0
+		lp.Character = c
+		fc:Destroy()
+		local con = nil
+		local function confunc()
+			con:Disconnect()
+			ws.CurrentCamera.CFrame = ccfr
+		end
+		con = renderstepped:Connect(confunc)
+	end
+
+	local destroyhum = (method == 4) or (method == 5)
+	local breakjoints = (method == 0) or (method == 4)
+	local antirespawn = (method == 0) or (method == 2) or (method == 3)
+
+	addtools = addtools and gp(lp, "Backpack", "Backpack")
+
+	if not (c and c.Parent) then
+		return
+	end
+
+	if simradius == "shp" then
+		local shp = sethiddenproperty or set_hidden_property or set_hidden_prop or sethiddenprop
+		if shp then
+			spawn(function()
+				while heartbeat:Wait() and c and c.Parent do
+					shp(lp, "SimulationRadius", math.huge)
+				end
+			end)
+		end
+	end
+
+	if simradius == "ssr" then
+		local ssr = setsimulationradius or set_simulation_radius or set_sim_radius or setsimradius or set_simulation_rad or setsimulationrad
+		if ssr then
+			spawn(function()
+				while stepped:Wait() and c and c.Parent do
+					ssr(math.huge)
+				end
+			end)
+		end
+	end
+
+	antiragdoll = antiragdoll and function(v)
+		if v and v.Parent and (v:IsA("HingeConstraint") or v:IsA("BallSocketConstraint")) then
+			v:Destroy()
+		end
+	end
+
+	if antiragdoll then
+		for i, v in pairs(c:GetDescendants()) do
+			antiragdoll(v)
+		end
+		c.DescendantAdded:Connect(antiragdoll)
+	end
+
+	if antirespawn then
+		respawnrequest()
+	end
+
+	if method == 0 then
+		wait(loadtime)
+		if not (c and c.Parent) then
+			return
+		end
+	end
+
+	if discharscripts then
+		for i, v in pairs(c:GetChildren()) do
+			if v and v.Parent and v:IsA("LocalScript") then
+				v.Disabled = true
+			end
+		end
+	elseif newanimate then
+		local animate = gp(c, "Animate", "LocalScript")
+		if animate and (not animate.Disabled) then
+			animate.Disabled = true
+		else
+			newanimate = false
+		end
+	end
+
+	local hum = c:FindFirstChildOfClass("Humanoid")
+	if hum then
+		for i, v in pairs(hum:GetPlayingAnimationTracks()) do
+			v:Stop()
+		end
+	end
+
+	if addtools then
+		for i, v in pairs(addtools:GetChildren()) do
+			if v and v.Parent and v:IsA("Tool") then
+				v.Parent = c
+			end
+		end
+	end
+
+	pcall(function()
+		settings().Physics.AllowSleep = false
+		settings().Physics.PhysicsEnvironmentalThrottle = Enum.EnviromentalPhysicsThrottle.Disabled
+	end)
+
+	local OLDscripts = {}
+
+	for i, v in pairs(c:GetDescendants()) do
+		if v.ClassName == "Script" then
+			table.insert(OLDscripts, v)
+		end
+	end
+
+	local scriptNames = {}
+
+	for i, v in pairs(c:GetDescendants()) do
+		if v and v.Parent and v:IsA("BasePart") then
+			local newName = tostring(i)
+			local exists = true
+			while exists do
+				exists = false
+				for i, v in pairs(OLDscripts) do
+					if v.Name == newName then
+						exists = true
+					end
+				end
+				if exists then
+					newName = newName .. "_"    
+				end
+			end
+			table.insert(scriptNames, newName)
+			Instance.new("Script", v).Name = newName
+		end
+	end
+
+	c.Archivable = true
+	local cl = c:Clone()
+	for i, v in pairs(cl:GetDescendants()) do
+		pcall(function()
+			v.Transparency = 1
+			v.Anchored = false
+		end)
+	end
+
+	local model = Instance.new("Model", c)
+	model.Name = model.ClassName
+
+	for i, v in pairs(c:GetChildren()) do
+		if v and v.Parent and (v ~= model) then
+			if destroyhum and v:IsA("Humanoid") then
+				v:Destroy()
+			else
+				if addtools and v:IsA("Tool") then
+					for i1, v1 in pairs(v:GetDescendants()) do
+						if v1 and v1.Parent and v1:IsA("BasePart") then
+							local bv = Instance.new("BodyVelocity", v1)
+							bv.Velocity = Vector3.new(0, 0, 0)
+							bv.MaxForce = Vector3.new(1000, 1000, 1000)
+							bv.P = 1250
+							bv.Name = "bv_" .. v.Name
+						end
+					end
+				end
+				v.Parent = model
+			end
+		end
+	end
+	local head = gp(model, "Head", "BasePart")
+	local torso = gp(model, "Torso", "BasePart") or gp(model, "UpperTorso", "BasePart")
+	if breakjoints then
+		model:BreakJoints()
+	else
+		if head and torso then
+			for i, v in pairs(model:GetDescendants()) do
+				if v and v.Parent and v:IsA("Weld") or v:IsA("Snap") or v:IsA("Glue") or v:IsA("Motor") or v:IsA("Motor6D") then
+					local save = false
+					if (v.Part0 == torso) and (v.Part1 == head) then
+						save = true
+					end
+					if (v.Part0 == head) and (v.Part1 == torso) then
+						save = true
+					end
+					if save then
+						if hedafterneck then
+							hedafterneck = v
+						end
+					else
+						v:Destroy()
+					end
+				end
+			end
+		end
+		if method == 3 then
+			spawn(function()
+				wait(loadtime)
+				if model and model.Parent then
+					model:BreakJoints()
+				end
+			end)
+		end
+	end
+
+	cl.Parent = c
+	for i, v in pairs(cl:GetChildren()) do
+		if v and v.Parent then
+			v.Parent = c
+		end
+	end
+	cl:Destroy()
+
+	local modelcolcon = nil
+	local function modelcolf()
+		if model and model.Parent then
+			for i, v in pairs(model:GetDescendants()) do
+				if v:IsA("BasePart") then
+					v.CanCollide = false
+				end
+			end
+		else
+			modelcolcon:Disconnect()
+		end
+	end
+	modelcolcon = stepped:Connect(modelcolf)
+	modelcolf()
+
+	for i, scr in pairs(model:GetDescendants()) do
+		if scr and scr.Parent and (scr.ClassName == "Script") and table.find(scriptNames, scr.Name) then
+			local Part0 = scr.Parent
+			if Part0:IsA("BasePart") then
+				for i1, scr1 in pairs(c:GetDescendants()) do
+					if scr1 and scr1.Parent and (scr1.ClassName == "Script") and (scr1.Name == scr.Name) and (not scr1:IsDescendantOf(model)) then
+						local Part1 = scr1.Parent
+						if (Part1.ClassName == Part0.ClassName) and (Part1.Name == Part0.Name) then
+							align(Part0, Part1)
+						end
+					end
+				end
+			end
+		end
+	end
+
+	if (typeof(hedafterneck) == "Instance") and head and head.Parent then
+		local aligns = {}
+		for i, v in pairs(head:GetDescendants()) do
+			if v and v.Parent and (v:IsA("AlignPosition") or v:IsA("AlignOrientation")) then
+				table.insert(aligns, v)
+				v.Enabled = false
+			end
+		end
+		spawn(function()
+			while c and c.Parent and hedafterneck and hedafterneck.Parent do
+				stepped:Wait()
+			end
+			if not (c and c.Parent and head and head.Parent) then
+				return
+			end
+			for i, v in pairs(aligns) do
+				pcall(function()
+					v.Enabled = true
+				end)
+			end
+		end)
+	end
+
+	for i, v in pairs(c:GetDescendants()) do
+		if v and v.Parent then
+			if v.ClassName == "Script" then
+				if table.find(scriptNames, v.Name) then
+					v:Destroy()
+				end
+			else
+				if not v:IsDescendantOf(model) then
+					if v:IsA("Decal") then
+						v.Transparency = 1
+					end
+					if v:IsA("ForceField") then
+						v.Visible = false
+					end
+					if v:IsA("Sound") then
+						v.Playing = false
+					end
+					if v:IsA("BillboardGui") or v:IsA("SurfaceGui") or v:IsA("ParticleEmitter") or v:IsA("Fire") or v:IsA("Smoke") or v:IsA("Sparkles") then
+						v.Enabled = false
+					end
+				end
+			end
+		end
+	end
+
+	if newanimate then
+		local animate = gp(c, "Animate", "LocalScript")
+		if animate then
+			animate.Disabled = false
+		end
+	end
+
+	if addtools then
+		for i, v in pairs(c:GetChildren()) do
+			if v and v.Parent and v:IsA("Tool") then
+				v.Parent = addtools
+			end
+		end
+	end
+
+	local hum0 = model:FindFirstChildOfClass("Humanoid")
+	local hum1 = c:FindFirstChildOfClass("Humanoid")
+	if hum1 then
+		ws.CurrentCamera.CameraSubject = hum1
+		spawn(function()
+			renderstepped:Wait()
+			if c and c.Parent and hum1 and (hum1.Parent == c) then
+				ws.CurrentCamera.CameraSubject = hum1
+			end
+		end)
+		if hum0 then
+			hum0.Changed:Connect(function(prop)
+				if (prop == "Jump") and hum1 and hum1.Parent then
+					hum1.Jump = hum0.Jump
+				end
+			end)
+		else
+			lp.Character = nil
+			lp.Character = c
+		end
+	end
+
+	local rb = Instance.new("BindableEvent", c)
+	rb.Event:Connect(function()
+		rb:Destroy()
+		sg:SetCore("ResetButtonCallback", true)
+		if destroyhum then
+			c:BreakJoints()
+			return
+		end
+		if antirespawn then
+			if hum0 and hum0.Parent and (hum0.Health > 0) then
+				model:BreakJoints()
+				hum0.Health = 0
+			end
+			respawnrequest()
+		else
+			if hum0 and hum0.Parent and (hum0.Health > 0) then
+				model:BreakJoints()
+				hum0.Health = 0
+			end
+		end
+	end)
+	sg:SetCore("ResetButtonCallback", rb)
+
+	spawn(function()
+		while c and c.Parent do
+			if hum0 and hum0.Parent and hum1 and hum1.Parent then
+				hum1.Jump = hum0.Jump
+			end
+			wait()
+		end
+		sg:SetCore("ResetButtonCallback", true)
+	end)
+
+	R15toR6 = R15toR6 and hum1 and (hum1.RigType == Enum.HumanoidRigType.R15)
+	if R15toR6 then
+		local cf = nil
+		pcall(function()
+			cf = gp(c, "HumanoidRootPart", "BasePart").CFrame
+		end)
+		if cf then
+			local R6parts = { 
+				head = {
+					Name = "Head",
+					Size = Vector3.new(2, 1, 1),
+					R15 = {
+						Head = 0
+					}
+				},
+				torso = {
+					Name = "Torso",
+					Size = Vector3.new(2, 2, 1),
+					R15 = {
+						UpperTorso = 0.2,
+						LowerTorso = -0.8
+					}
+				},
+				root = {
+					Name = "HumanoidRootPart",
+					Size = Vector3.new(2, 2, 1),
+					R15 = {
+						HumanoidRootPart = 0
+					}
+				},
+				leftArm = {
+					Name = "Left Arm",
+					Size = Vector3.new(1, 2, 1),
+					R15 = {
+						LeftHand = -0.85,
+						LeftLowerArm = -0.2,
+						LeftUpperArm = 0.4
+					}
+				},
+				rightArm = {
+					Name = "Right Arm",
+					Size = Vector3.new(1, 2, 1),
+					R15 = {
+						RightHand = -0.85,
+						RightLowerArm = -0.2,
+						RightUpperArm = 0.4
+					}
+				},
+				leftLeg = {
+					Name = "Left Leg",
+					Size = Vector3.new(1, 2, 1),
+					R15 = {
+						LeftFoot = -0.85,
+						LeftLowerLeg = -0.15,
+						LeftUpperLeg = 0.6
+					}
+				},
+				rightLeg = {
+					Name = "Right Leg",
+					Size = Vector3.new(1, 2, 1),
+					R15 = {
+						RightFoot = -0.85,
+						RightLowerLeg = -0.15,
+						RightUpperLeg = 0.6
+					}
+				}
+			}
+			for i, v in pairs(c:GetChildren()) do
+				if v:IsA("BasePart") then
+					for i1, v1 in pairs(v:GetChildren()) do
+						if v1:IsA("Motor6D") then
+							v1.Part0 = nil
+						end
+					end
+				end
+			end
+			for i, v in pairs(R6parts) do
+				local part = Instance.new("Part")
+				part.Name = v.Name
+				part.Size = v.Size
+				part.CFrame = cf
+				part.Anchored = false
+				part.Transparency = 1
+				part.CanCollide = false
+				for i1, v1 in pairs(v.R15) do
+					local R15part = gp(c, i1, "BasePart")
+					local att = gp(R15part, "att1_" .. i1, "Attachment")
+					if R15part then
+						local weld = Instance.new("Weld", R15part)
+						weld.Part0 = part
+						weld.Part1 = R15part
+						weld.C0 = CFrame.new(0, v1, 0)
+						weld.C1 = CFrame.new(0, 0, 0)
+						R15part.Massless = true
+						R15part.Name = "R15_" .. i1
+						if att then
+							att.Parent = part
+							att.Position = Vector3.new(0, v1, 0)
+							R15part.Parent = att
+						else
+							R15part.Parent = part
+						end
+					end
+				end
+				part.Parent = c
+				R6parts[i] = part
+			end
+			local R6joints = {
+				neck = {
+					Parent = R6parts.torso,
+					Name = "Neck",
+					Part0 = R6parts.torso,
+					Part1 = R6parts.head,
+					C0 = CFrame.new(0, 1, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0),
+					C1 = CFrame.new(0, -0.5, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0)
+				},
+				rootJoint = {
+					Parent = R6parts.root,
+					Name = "RootJoint" ,
+					Part0 = R6parts.root,
+					Part1 = R6parts.torso,
+					C0 = CFrame.new(0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0),
+					C1 = CFrame.new(0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0)
+				},
+				rightShoulder = {
+					Parent = R6parts.torso,
+					Name = "Right Shoulder",
+					Part0 = R6parts.torso,
+					Part1 = R6parts.rightArm,
+					C0 = CFrame.new(1, 0.5, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0),
+					C1 = CFrame.new(-0.5, 0.5, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+				},
+				leftShoulder = {
+					Parent = R6parts.torso,
+					Name = "Left Shoulder",
+					Part0 = R6parts.torso,
+					Part1 = R6parts.leftArm,
+					C0 = CFrame.new(-1, 0.5, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0),
+					C1 = CFrame.new(0.5, 0.5, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+				},
+				rightHip = {
+					Parent = R6parts.torso,
+					Name = "Right Hip",
+					Part0 = R6parts.torso,
+					Part1 = R6parts.rightLeg,
+					C0 = CFrame.new(1, -1, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0),
+					C1 = CFrame.new(0.5, 1, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+				},
+				leftHip = {
+					Parent = R6parts.torso,
+					Name = "Left Hip" ,
+					Part0 = R6parts.torso,
+					Part1 = R6parts.leftLeg,
+					C0 = CFrame.new(-1, -1, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0),
+					C1 = CFrame.new(-0.5, 1, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+				}
+			}
+			for i, v in pairs(R6joints) do
+				local joint = Instance.new("Motor6D")
+				for prop, val in pairs(v) do
+					joint[prop] = val
+				end
+				R6joints[i] = joint
+			end
+			hum1.RigType = Enum.HumanoidRigType.R6
+			hum1.HipHeight = 0
+		end
+	end
+	wait(7)
+	for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if v:IsA("Accessory") then
+			if v.Handle:FindFirstChildOfClass("Mesh") or v.Handle:FindFirstChildOfClass("SpecialMesh") then
+				if v.Handle:FindFirstChildOfClass("SpecialMesh") then
+					v.Handle:FindFirstChildOfClass("SpecialMesh"):Remove()
+				end
+			end
+		end
+	end
+
+	for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+		if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then
+			game:GetService("RunService").Heartbeat:connect(function()
+				v.Velocity = Vector3.new(0,35,0)
+				wait(0.5)
+			end)
+		end
+	end
+
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Electroware Notification";
+		Text = "Reanimation Executed!";
+		Icon = "http://www.roblox.com/asset/?id=8724185099"})
+end)
+
+UICorner_11.CornerRadius = UDim.new(0, 1)
+UICorner_11.Parent = Reanimv1Button
+
+Reanimv1Buttondhm.Name = "Reanimv1Buttondhm"
+Reanimv1Buttondhm.Parent = ReanimationsFrame
+Reanimv1Buttondhm.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Reanimv1Buttondhm.Position = UDim2.new(0.145584732, 0, 0.111018054, 0)
+Reanimv1Buttondhm.Size = UDim2.new(0, 297, 0, 37)
+Reanimv1Buttondhm.Font = Enum.Font.GothamBlack
+Reanimv1Buttondhm.Text = "Reanimation v1(Destroy Hat Meshes)"
+Reanimv1Buttondhm.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reanimv1Buttondhm.TextSize = 14.000
+Reanimv1Buttondhm.MouseButton1Down:Connect(function()
+	for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if v:IsA("Accessory") then
+			if v.Handle:FindFirstChildOfClass("Mesh") or v.Handle:FindFirstChildOfClass("SpecialMesh") then
+				if v.Handle:FindFirstChildOfClass("SpecialMesh") then
+					v.Handle:FindFirstChildOfClass("SpecialMesh"):Remove()
+				end
+			end
+		end
+	end
+
+	for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+		if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then
+			game:GetService("RunService").Heartbeat:connect(function()
+				v.Velocity = Vector3.new(0,35,0)
+				wait(0.5)
+			end)
+		end
+	end
+
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Electroware Notification";
+		Text = "Elecroware Netless executed please wait untill your health is 0";
+		Icon = "http://www.roblox.com/asset/?id=8724185099"})
+
+	local netboost = 100 --velocity 
+	--netboost usage: 
+	--set to false to disable
+	--vector3 if you dont want the velocity to change
+	--number to change the velocity in real time with magnitude equal to the number
+	local simradius = "shp" --simulation radius method
+	--"shp" - sethiddenproperty
+	--"ssr" - setsimulationradius
+	--false - disable
+	local antiragdoll = true --removes hingeConstraints and ballSocketConstraints from your character
+	local newanimate = true --disables the animate script and enable after reanimation
+	local discharscripts = true --disables all localScripts parented to your character before reanimation
+	local R15toR6 = true --tries to convert your character to r6 if its r15
+	local addtools = false --puts all tools from backpack to character and lets you hold them after reanimation
+	local loadtime = game:GetService("Players").RespawnTime + 0.5 --anti respawn delay
+	local method = 3 --reanimation method
+	--methods:
+	--0 - breakJoints (takes [loadtime] seconds to laod)
+	--1 - limbs
+	--2 - limbs + anti respawn
+	--3 - limbs + breakJoints after [loadtime] seconds
+	--4 - remove humanoid + breakJoints
+	--5 - remove humanoid + limbs
+	local alignmode = 2 --AlignPosition mode
+	--modes:
+	--1 - AlignPosition rigidity enabled true
+	--2 - 2 AlignPositions rigidity enabled both true and false
+	--3 - AlignPosition rigidity enabled false
+	local hedafterneck = true --disable aligns for head and enable after neck is removed
+
+	local lp = game:GetService("Players").LocalPlayer
+	local rs = game:GetService("RunService")
+	local stepped = rs.Stepped
+	local heartbeat = rs.Heartbeat
+	local renderstepped = rs.RenderStepped
+	local sg = game:GetService("StarterGui")
+	local ws = game:GetService("Workspace")
+
+	local c = lp.Character
+
+	local function gp(parent, name, className)
+		local ret = nil
+		if parent then
+			for i, v in pairs(parent:GetChildren()) do
+				if (v.Name == name) and v:IsA(className) then
+					ret = v
+				end
+			end
+		end
+		return ret
+	end
+
+	local function align(Part0, Part1)
+		Part0.CustomPhysicalProperties = PhysicalProperties.new(0.0001, 0.0001, 0.0001, 0.0001, 0.0001)
+
+		local att1 = Instance.new("Attachment")
+		att1.Orientation = Vector3.new(0, 0, 0)
+		att1.Position = Vector3.new(0, 0, 0)
+		att1.Archivable = true
+		local att0 = att1:Clone()
+
+		if (alignmode == 1) or (alignmode == 2) then
+			local ape = Instance.new("AlignPosition", att0)
+			ape.ApplyAtCenterOfMass = false
+			ape.MaxForce = math.huge
+			ape.MaxVelocity = math.huge
+			ape.ReactionForceEnabled = false
+			ape.Responsiveness = 200
+			ape.Attachment1 = att1
+			ape.Attachment0 = att0
+			ape.Name = "AlignPositionRtrue"
+			ape.RigidityEnabled = true
+		end
+
+		if (alignmode == 2) or (alignmode == 3) then
+			local apd = Instance.new("AlignPosition", att0)
+			apd.ApplyAtCenterOfMass = false
+			apd.MaxForce = math.huge
+			apd.MaxVelocity = math.huge
+			apd.ReactionForceEnabled = false
+			apd.Responsiveness = 200
+			apd.Attachment1 = att1
+			apd.Attachment0 = att0
+			apd.Name = "AlignPositionRfalse"
+			apd.RigidityEnabled = false
+		end
+
+		local ao = Instance.new("AlignOrientation", att0)
+		ao.MaxAngularVelocity = math.huge
+		ao.MaxTorque = math.huge
+		ao.PrimaryAxisOnly = false
+		ao.ReactionTorqueEnabled = false
+		ao.Responsiveness = 200
+		ao.Attachment1 = att1
+		ao.Attachment0 = att0
+		ao.RigidityEnabled = false
+
+		att1.Parent = Part1
+		att1.Name = "att1_" .. Part1.Name
+
+		att0.Parent = Part0
+		att0.Name = "att0_" .. Part0.Name
+
+		if typeof(netboost) == "Vector3" then
+			spawn(function()
+				local vel = Vector3.new(0, 0, 0)
+				while Part0 and Part0.Parent do
+					Part0.Velocity = vel
+					heartbeat:Wait()
+					if Part0 and Part0.Parent then
+						vel = Part0.Velocity
+						Part0.Velocity = netboost
+						stepped:Wait()
+					end
+				end
+			end)
+		end
+
+		if typeof(netboost) == "number" then
+			spawn(function()
+				local vel = Vector3.new(0, 0, 0)
+				while Part0 and Part0.Parent do
+					Part0.Velocity = vel
+					heartbeat:Wait()
+					if Part0 and Part0.Parent then
+						local newvel = vel
+						local mag = newvel.Magnitude
+						if mag < 0.1 then
+							newvel = Vector3.new(0, netboost, 0)
+						else
+							local multiplier = netboost / mag
+							newvel *= Vector3.new(multiplier,  multiplier, multiplier)
+						end
+						vel = Part0.Velocity
+						Part0.Velocity = newvel
+						stepped:Wait()
+					end
+				end
+			end)
+		end
+	end
+
+	local function respawnrequest()
+		local c = lp.Character
+		local ccfr = ws.CurrentCamera.CFrame
+		local fc = Instance.new("Model")
+		local nh = Instance.new("Humanoid", fc)
+		lp.Character = fc
+		nh.Health = 0
+		lp.Character = c
+		fc:Destroy()
+		local con = nil
+		local function confunc()
+			con:Disconnect()
+			ws.CurrentCamera.CFrame = ccfr
+		end
+		con = renderstepped:Connect(confunc)
+	end
+
+	local destroyhum = (method == 4) or (method == 5)
+	local breakjoints = (method == 0) or (method == 4)
+	local antirespawn = (method == 0) or (method == 2) or (method == 3)
+
+	addtools = addtools and gp(lp, "Backpack", "Backpack")
+
+	if not (c and c.Parent) then
+		return
+	end
+
+	if simradius == "shp" then
+		local shp = sethiddenproperty or set_hidden_property or set_hidden_prop or sethiddenprop
+		if shp then
+			spawn(function()
+				while heartbeat:Wait() and c and c.Parent do
+					shp(lp, "SimulationRadius", math.huge)
+				end
+			end)
+		end
+	end
+
+	if simradius == "ssr" then
+		local ssr = setsimulationradius or set_simulation_radius or set_sim_radius or setsimradius or set_simulation_rad or setsimulationrad
+		if ssr then
+			spawn(function()
+				while stepped:Wait() and c and c.Parent do
+					ssr(math.huge)
+				end
+			end)
+		end
+	end
+
+	antiragdoll = antiragdoll and function(v)
+		if v and v.Parent and (v:IsA("HingeConstraint") or v:IsA("BallSocketConstraint")) then
+			v:Destroy()
+		end
+	end
+
+	if antiragdoll then
+		for i, v in pairs(c:GetDescendants()) do
+			antiragdoll(v)
+		end
+		c.DescendantAdded:Connect(antiragdoll)
+	end
+
+	if antirespawn then
+		respawnrequest()
+	end
+
+	if method == 0 then
+		wait(loadtime)
+		if not (c and c.Parent) then
+			return
+		end
+	end
+
+	if discharscripts then
+		for i, v in pairs(c:GetChildren()) do
+			if v and v.Parent and v:IsA("LocalScript") then
+				v.Disabled = true
+			end
+		end
+	elseif newanimate then
+		local animate = gp(c, "Animate", "LocalScript")
+		if animate and (not animate.Disabled) then
+			animate.Disabled = true
+		else
+			newanimate = false
+		end
+	end
+
+	local hum = c:FindFirstChildOfClass("Humanoid")
+	if hum then
+		for i, v in pairs(hum:GetPlayingAnimationTracks()) do
+			v:Stop()
+		end
+	end
+
+	if addtools then
+		for i, v in pairs(addtools:GetChildren()) do
+			if v and v.Parent and v:IsA("Tool") then
+				v.Parent = c
+			end
+		end
+	end
+
+	pcall(function()
+		settings().Physics.AllowSleep = false
+		settings().Physics.PhysicsEnvironmentalThrottle = Enum.EnviromentalPhysicsThrottle.Disabled
+	end)
+
+	local OLDscripts = {}
+
+	for i, v in pairs(c:GetDescendants()) do
+		if v.ClassName == "Script" then
+			table.insert(OLDscripts, v)
+		end
+	end
+
+	local scriptNames = {}
+
+	for i, v in pairs(c:GetDescendants()) do
+		if v and v.Parent and v:IsA("BasePart") then
+			local newName = tostring(i)
+			local exists = true
+			while exists do
+				exists = false
+				for i, v in pairs(OLDscripts) do
+					if v.Name == newName then
+						exists = true
+					end
+				end
+				if exists then
+					newName = newName .. "_"    
+				end
+			end
+			table.insert(scriptNames, newName)
+			Instance.new("Script", v).Name = newName
+		end
+	end
+
+	c.Archivable = true
+	local cl = c:Clone()
+	for i, v in pairs(cl:GetDescendants()) do
+		pcall(function()
+			v.Transparency = 1
+			v.Anchored = false
+		end)
+	end
+
+	local model = Instance.new("Model", c)
+	model.Name = model.ClassName
+
+	for i, v in pairs(c:GetChildren()) do
+		if v and v.Parent and (v ~= model) then
+			if destroyhum and v:IsA("Humanoid") then
+				v:Destroy()
+			else
+				if addtools and v:IsA("Tool") then
+					for i1, v1 in pairs(v:GetDescendants()) do
+						if v1 and v1.Parent and v1:IsA("BasePart") then
+							local bv = Instance.new("BodyVelocity", v1)
+							bv.Velocity = Vector3.new(0, 0, 0)
+							bv.MaxForce = Vector3.new(1000, 1000, 1000)
+							bv.P = 1250
+							bv.Name = "bv_" .. v.Name
+						end
+					end
+				end
+				v.Parent = model
+			end
+		end
+	end
+	local head = gp(model, "Head", "BasePart")
+	local torso = gp(model, "Torso", "BasePart") or gp(model, "UpperTorso", "BasePart")
+	if breakjoints then
+		model:BreakJoints()
+	else
+		if head and torso then
+			for i, v in pairs(model:GetDescendants()) do
+				if v and v.Parent and v:IsA("Weld") or v:IsA("Snap") or v:IsA("Glue") or v:IsA("Motor") or v:IsA("Motor6D") then
+					local save = false
+					if (v.Part0 == torso) and (v.Part1 == head) then
+						save = true
+					end
+					if (v.Part0 == head) and (v.Part1 == torso) then
+						save = true
+					end
+					if save then
+						if hedafterneck then
+							hedafterneck = v
+						end
+					else
+						v:Destroy()
+					end
+				end
+			end
+		end
+		if method == 3 then
+			spawn(function()
+				wait(loadtime)
+				if model and model.Parent then
+					model:BreakJoints()
+				end
+			end)
+		end
+	end
+
+	cl.Parent = c
+	for i, v in pairs(cl:GetChildren()) do
+		if v and v.Parent then
+			v.Parent = c
+		end
+	end
+	cl:Destroy()
+
+	local modelcolcon = nil
+	local function modelcolf()
+		if model and model.Parent then
+			for i, v in pairs(model:GetDescendants()) do
+				if v:IsA("BasePart") then
+					v.CanCollide = false
+				end
+			end
+		else
+			modelcolcon:Disconnect()
+		end
+	end
+	modelcolcon = stepped:Connect(modelcolf)
+	modelcolf()
+
+	for i, scr in pairs(model:GetDescendants()) do
+		if scr and scr.Parent and (scr.ClassName == "Script") and table.find(scriptNames, scr.Name) then
+			local Part0 = scr.Parent
+			if Part0:IsA("BasePart") then
+				for i1, scr1 in pairs(c:GetDescendants()) do
+					if scr1 and scr1.Parent and (scr1.ClassName == "Script") and (scr1.Name == scr.Name) and (not scr1:IsDescendantOf(model)) then
+						local Part1 = scr1.Parent
+						if (Part1.ClassName == Part0.ClassName) and (Part1.Name == Part0.Name) then
+							align(Part0, Part1)
+						end
+					end
+				end
+			end
+		end
+	end
+
+	if (typeof(hedafterneck) == "Instance") and head and head.Parent then
+		local aligns = {}
+		for i, v in pairs(head:GetDescendants()) do
+			if v and v.Parent and (v:IsA("AlignPosition") or v:IsA("AlignOrientation")) then
+				table.insert(aligns, v)
+				v.Enabled = false
+			end
+		end
+		spawn(function()
+			while c and c.Parent and hedafterneck and hedafterneck.Parent do
+				stepped:Wait()
+			end
+			if not (c and c.Parent and head and head.Parent) then
+				return
+			end
+			for i, v in pairs(aligns) do
+				pcall(function()
+					v.Enabled = true
+				end)
+			end
+		end)
+	end
+
+	for i, v in pairs(c:GetDescendants()) do
+		if v and v.Parent then
+			if v.ClassName == "Script" then
+				if table.find(scriptNames, v.Name) then
+					v:Destroy()
+				end
+			else
+				if not v:IsDescendantOf(model) then
+					if v:IsA("Decal") then
+						v.Transparency = 1
+					end
+					if v:IsA("ForceField") then
+						v.Visible = false
+					end
+					if v:IsA("Sound") then
+						v.Playing = false
+					end
+					if v:IsA("BillboardGui") or v:IsA("SurfaceGui") or v:IsA("ParticleEmitter") or v:IsA("Fire") or v:IsA("Smoke") or v:IsA("Sparkles") then
+						v.Enabled = false
+					end
+				end
+			end
+		end
+	end
+
+	if newanimate then
+		local animate = gp(c, "Animate", "LocalScript")
+		if animate then
+			animate.Disabled = false
+		end
+	end
+
+	if addtools then
+		for i, v in pairs(c:GetChildren()) do
+			if v and v.Parent and v:IsA("Tool") then
+				v.Parent = addtools
+			end
+		end
+	end
+
+	local hum0 = model:FindFirstChildOfClass("Humanoid")
+	local hum1 = c:FindFirstChildOfClass("Humanoid")
+	if hum1 then
+		ws.CurrentCamera.CameraSubject = hum1
+		spawn(function()
+			renderstepped:Wait()
+			if c and c.Parent and hum1 and (hum1.Parent == c) then
+				ws.CurrentCamera.CameraSubject = hum1
+			end
+		end)
+		if hum0 then
+			hum0.Changed:Connect(function(prop)
+				if (prop == "Jump") and hum1 and hum1.Parent then
+					hum1.Jump = hum0.Jump
+				end
+			end)
+		else
+			lp.Character = nil
+			lp.Character = c
+		end
+	end
+
+	local rb = Instance.new("BindableEvent", c)
+	rb.Event:Connect(function()
+		rb:Destroy()
+		sg:SetCore("ResetButtonCallback", true)
+		if destroyhum then
+			c:BreakJoints()
+			return
+		end
+		if antirespawn then
+			if hum0 and hum0.Parent and (hum0.Health > 0) then
+				model:BreakJoints()
+				hum0.Health = 0
+			end
+			respawnrequest()
+		else
+			if hum0 and hum0.Parent and (hum0.Health > 0) then
+				model:BreakJoints()
+				hum0.Health = 0
+			end
+		end
+	end)
+	sg:SetCore("ResetButtonCallback", rb)
+
+	spawn(function()
+		while c and c.Parent do
+			if hum0 and hum0.Parent and hum1 and hum1.Parent then
+				hum1.Jump = hum0.Jump
+			end
+			wait()
+		end
+		sg:SetCore("ResetButtonCallback", true)
+	end)
+
+	R15toR6 = R15toR6 and hum1 and (hum1.RigType == Enum.HumanoidRigType.R15)
+	if R15toR6 then
+		local cf = nil
+		pcall(function()
+			cf = gp(c, "HumanoidRootPart", "BasePart").CFrame
+		end)
+		if cf then
+			local R6parts = { 
+				head = {
+					Name = "Head",
+					Size = Vector3.new(2, 1, 1),
+					R15 = {
+						Head = 0
+					}
+				},
+				torso = {
+					Name = "Torso",
+					Size = Vector3.new(2, 2, 1),
+					R15 = {
+						UpperTorso = 0.2,
+						LowerTorso = -0.8
+					}
+				},
+				root = {
+					Name = "HumanoidRootPart",
+					Size = Vector3.new(2, 2, 1),
+					R15 = {
+						HumanoidRootPart = 0
+					}
+				},
+				leftArm = {
+					Name = "Left Arm",
+					Size = Vector3.new(1, 2, 1),
+					R15 = {
+						LeftHand = -0.85,
+						LeftLowerArm = -0.2,
+						LeftUpperArm = 0.4
+					}
+				},
+				rightArm = {
+					Name = "Right Arm",
+					Size = Vector3.new(1, 2, 1),
+					R15 = {
+						RightHand = -0.85,
+						RightLowerArm = -0.2,
+						RightUpperArm = 0.4
+					}
+				},
+				leftLeg = {
+					Name = "Left Leg",
+					Size = Vector3.new(1, 2, 1),
+					R15 = {
+						LeftFoot = -0.85,
+						LeftLowerLeg = -0.15,
+						LeftUpperLeg = 0.6
+					}
+				},
+				rightLeg = {
+					Name = "Right Leg",
+					Size = Vector3.new(1, 2, 1),
+					R15 = {
+						RightFoot = -0.85,
+						RightLowerLeg = -0.15,
+						RightUpperLeg = 0.6
+					}
+				}
+			}
+			for i, v in pairs(c:GetChildren()) do
+				if v:IsA("BasePart") then
+					for i1, v1 in pairs(v:GetChildren()) do
+						if v1:IsA("Motor6D") then
+							v1.Part0 = nil
+						end
+					end
+				end
+			end
+			for i, v in pairs(R6parts) do
+				local part = Instance.new("Part")
+				part.Name = v.Name
+				part.Size = v.Size
+				part.CFrame = cf
+				part.Anchored = false
+				part.Transparency = 1
+				part.CanCollide = false
+				for i1, v1 in pairs(v.R15) do
+					local R15part = gp(c, i1, "BasePart")
+					local att = gp(R15part, "att1_" .. i1, "Attachment")
+					if R15part then
+						local weld = Instance.new("Weld", R15part)
+						weld.Part0 = part
+						weld.Part1 = R15part
+						weld.C0 = CFrame.new(0, v1, 0)
+						weld.C1 = CFrame.new(0, 0, 0)
+						R15part.Massless = true
+						R15part.Name = "R15_" .. i1
+						if att then
+							att.Parent = part
+							att.Position = Vector3.new(0, v1, 0)
+							R15part.Parent = att
+						else
+							R15part.Parent = part
+						end
+					end
+				end
+				part.Parent = c
+				R6parts[i] = part
+			end
+			local R6joints = {
+				neck = {
+					Parent = R6parts.torso,
+					Name = "Neck",
+					Part0 = R6parts.torso,
+					Part1 = R6parts.head,
+					C0 = CFrame.new(0, 1, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0),
+					C1 = CFrame.new(0, -0.5, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0)
+				},
+				rootJoint = {
+					Parent = R6parts.root,
+					Name = "RootJoint" ,
+					Part0 = R6parts.root,
+					Part1 = R6parts.torso,
+					C0 = CFrame.new(0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0),
+					C1 = CFrame.new(0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0)
+				},
+				rightShoulder = {
+					Parent = R6parts.torso,
+					Name = "Right Shoulder",
+					Part0 = R6parts.torso,
+					Part1 = R6parts.rightArm,
+					C0 = CFrame.new(1, 0.5, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0),
+					C1 = CFrame.new(-0.5, 0.5, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+				},
+				leftShoulder = {
+					Parent = R6parts.torso,
+					Name = "Left Shoulder",
+					Part0 = R6parts.torso,
+					Part1 = R6parts.leftArm,
+					C0 = CFrame.new(-1, 0.5, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0),
+					C1 = CFrame.new(0.5, 0.5, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+				},
+				rightHip = {
+					Parent = R6parts.torso,
+					Name = "Right Hip",
+					Part0 = R6parts.torso,
+					Part1 = R6parts.rightLeg,
+					C0 = CFrame.new(1, -1, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0),
+					C1 = CFrame.new(0.5, 1, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+				},
+				leftHip = {
+					Parent = R6parts.torso,
+					Name = "Left Hip" ,
+					Part0 = R6parts.torso,
+					Part1 = R6parts.leftLeg,
+					C0 = CFrame.new(-1, -1, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0),
+					C1 = CFrame.new(-0.5, 1, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+				}
+			}
+			for i, v in pairs(R6joints) do
+				local joint = Instance.new("Motor6D")
+				for prop, val in pairs(v) do
+					joint[prop] = val
+				end
+				R6joints[i] = joint
+			end
+			hum1.RigType = Enum.HumanoidRigType.R6
+			hum1.HipHeight = 0
+		end
+	end
+	wait(7)
+	for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if v:IsA("Accessory") then
+			if v.Handle:FindFirstChildOfClass("Mesh") or v.Handle:FindFirstChildOfClass("SpecialMesh") then
+				if v.Handle:FindFirstChildOfClass("SpecialMesh") then
+					v.Handle:FindFirstChildOfClass("SpecialMesh"):Remove()
+				end
+			end
+		end
+	end
+
+	for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+		if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then
+			game:GetService("RunService").Heartbeat:connect(function()
+				v.Velocity = Vector3.new(0,35,0)
+				wait(0.5)
+			end)
+		end
+	end
+
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Electroware Notification";
+		Text = "Reanimation Executed!";
+		Icon = "http://www.roblox.com/asset/?id=8724185099"})
+end)
+
+UICorner_12.CornerRadius = UDim.new(0, 1)
+UICorner_12.Parent = Reanimv1Buttondhm
+
+Reanimv1Buttondhm_2.Name = "Reanimv1Buttondhm"
+Reanimv1Buttondhm_2.Parent = ReanimationsFrame
+Reanimv1Buttondhm_2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Reanimv1Buttondhm_2.Position = UDim2.new(0.145584732, 0, 0.20234932, 0)
+Reanimv1Buttondhm_2.Size = UDim2.new(0, 297, 0, 37)
+Reanimv1Buttondhm_2.Font = Enum.Font.GothamBlack
+Reanimv1Buttondhm_2.Text = "FE Penis v3 Reanimation"
+Reanimv1Buttondhm_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reanimv1Buttondhm_2.TextSize = 14.000
+Reanimv1Buttondhm_2.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.InternationalFedora.Handle.SpecialMesh:Destroy()
+	game.Players.LocalPlayer.Character.MeshPartAccessory.Handle.SpecialMesh:Destroy()
+	game.Players.LocalPlayer.Character["Pal Hair"].Handle.Mesh:Destroy()
+	game.Players.LocalPlayer.Character.LavanderHair.Handle.Mesh:Destroy()
+
+	for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+		if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then
+			game:GetService("RunService").Heartbeat:connect(function()
+				v.Velocity = Vector3.new(0,35,0)
+				wait(0.5)
+			end)
+		end
+	end
+
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Electroware Notification";
+		Text = "Elecroware Netless executed please wait untill your health is 0";
+		Icon = "http://www.roblox.com/asset/?id=8724185099"})
+
+	local netboost = 100 --velocity 
+	--netboost usage: 
+	--set to false to disable
+	--vector3 if you dont want the velocity to change
+	--number to change the velocity in real time with magnitude equal to the number
+	local simradius = "shp" --simulation radius method
+	--"shp" - sethiddenproperty
+	--"ssr" - setsimulationradius
+	--false - disable
+	local antiragdoll = true --removes hingeConstraints and ballSocketConstraints from your character
+	local newanimate = true --disables the animate script and enable after reanimation
+	local discharscripts = true --disables all localScripts parented to your character before reanimation
+	local R15toR6 = true --tries to convert your character to r6 if its r15
+	local addtools = false --puts all tools from backpack to character and lets you hold them after reanimation
+	local loadtime = game:GetService("Players").RespawnTime + 0.5 --anti respawn delay
+	local method = 3 --reanimation method
+	--methods:
+	--0 - breakJoints (takes [loadtime] seconds to laod)
+	--1 - limbs
+	--2 - limbs + anti respawn
+	--3 - limbs + breakJoints after [loadtime] seconds
+	--4 - remove humanoid + breakJoints
+	--5 - remove humanoid + limbs
+	local alignmode = 2 --AlignPosition mode
+	--modes:
+	--1 - AlignPosition rigidity enabled true
+	--2 - 2 AlignPositions rigidity enabled both true and false
+	--3 - AlignPosition rigidity enabled false
+	local hedafterneck = true --disable aligns for head and enable after neck is removed
+
+	local lp = game:GetService("Players").LocalPlayer
+	local rs = game:GetService("RunService")
+	local stepped = rs.Stepped
+	local heartbeat = rs.Heartbeat
+	local renderstepped = rs.RenderStepped
+	local sg = game:GetService("StarterGui")
+	local ws = game:GetService("Workspace")
+
+	local c = lp.Character
+
+	local function gp(parent, name, className)
+		local ret = nil
+		if parent then
+			for i, v in pairs(parent:GetChildren()) do
+				if (v.Name == name) and v:IsA(className) then
+					ret = v
+				end
+			end
+		end
+		return ret
+	end
+
+	local function align(Part0, Part1)
+		Part0.CustomPhysicalProperties = PhysicalProperties.new(0.0001, 0.0001, 0.0001, 0.0001, 0.0001)
+
+		local att1 = Instance.new("Attachment")
+		att1.Orientation = Vector3.new(0, 0, 0)
+		att1.Position = Vector3.new(0, 0, 0)
+		att1.Archivable = true
+		local att0 = att1:Clone()
+
+		if (alignmode == 1) or (alignmode == 2) then
+			local ape = Instance.new("AlignPosition", att0)
+			ape.ApplyAtCenterOfMass = false
+			ape.MaxForce = math.huge
+			ape.MaxVelocity = math.huge
+			ape.ReactionForceEnabled = false
+			ape.Responsiveness = 200
+			ape.Attachment1 = att1
+			ape.Attachment0 = att0
+			ape.Name = "AlignPositionRtrue"
+			ape.RigidityEnabled = true
+		end
+
+		if (alignmode == 2) or (alignmode == 3) then
+			local apd = Instance.new("AlignPosition", att0)
+			apd.ApplyAtCenterOfMass = false
+			apd.MaxForce = math.huge
+			apd.MaxVelocity = math.huge
+			apd.ReactionForceEnabled = false
+			apd.Responsiveness = 200
+			apd.Attachment1 = att1
+			apd.Attachment0 = att0
+			apd.Name = "AlignPositionRfalse"
+			apd.RigidityEnabled = false
+		end
+
+		local ao = Instance.new("AlignOrientation", att0)
+		ao.MaxAngularVelocity = math.huge
+		ao.MaxTorque = math.huge
+		ao.PrimaryAxisOnly = false
+		ao.ReactionTorqueEnabled = false
+		ao.Responsiveness = 200
+		ao.Attachment1 = att1
+		ao.Attachment0 = att0
+		ao.RigidityEnabled = false
+
+		att1.Parent = Part1
+		att1.Name = "att1_" .. Part1.Name
+
+		att0.Parent = Part0
+		att0.Name = "att0_" .. Part0.Name
+
+		if typeof(netboost) == "Vector3" then
+			spawn(function()
+				local vel = Vector3.new(0, 0, 0)
+				while Part0 and Part0.Parent do
+					Part0.Velocity = vel
+					heartbeat:Wait()
+					if Part0 and Part0.Parent then
+						vel = Part0.Velocity
+						Part0.Velocity = netboost
+						stepped:Wait()
+					end
+				end
+			end)
+		end
+
+		if typeof(netboost) == "number" then
+			spawn(function()
+				local vel = Vector3.new(0, 0, 0)
+				while Part0 and Part0.Parent do
+					Part0.Velocity = vel
+					heartbeat:Wait()
+					if Part0 and Part0.Parent then
+						local newvel = vel
+						local mag = newvel.Magnitude
+						if mag < 0.1 then
+							newvel = Vector3.new(0, netboost, 0)
+						else
+							local multiplier = netboost / mag
+							newvel *= Vector3.new(multiplier,  multiplier, multiplier)
+						end
+						vel = Part0.Velocity
+						Part0.Velocity = newvel
+						stepped:Wait()
+					end
+				end
+			end)
+		end
+	end
+
+	local function respawnrequest()
+		local c = lp.Character
+		local ccfr = ws.CurrentCamera.CFrame
+		local fc = Instance.new("Model")
+		local nh = Instance.new("Humanoid", fc)
+		lp.Character = fc
+		nh.Health = 0
+		lp.Character = c
+		fc:Destroy()
+		local con = nil
+		local function confunc()
+			con:Disconnect()
+			ws.CurrentCamera.CFrame = ccfr
+		end
+		con = renderstepped:Connect(confunc)
+	end
+
+	local destroyhum = (method == 4) or (method == 5)
+	local breakjoints = (method == 0) or (method == 4)
+	local antirespawn = (method == 0) or (method == 2) or (method == 3)
+
+	addtools = addtools and gp(lp, "Backpack", "Backpack")
+
+	if not (c and c.Parent) then
+		return
+	end
+
+	if simradius == "shp" then
+		local shp = sethiddenproperty or set_hidden_property or set_hidden_prop or sethiddenprop
+		if shp then
+			spawn(function()
+				while heartbeat:Wait() and c and c.Parent do
+					shp(lp, "SimulationRadius", math.huge)
+				end
+			end)
+		end
+	end
+
+	if simradius == "ssr" then
+		local ssr = setsimulationradius or set_simulation_radius or set_sim_radius or setsimradius or set_simulation_rad or setsimulationrad
+		if ssr then
+			spawn(function()
+				while stepped:Wait() and c and c.Parent do
+					ssr(math.huge)
+				end
+			end)
+		end
+	end
+
+	antiragdoll = antiragdoll and function(v)
+		if v and v.Parent and (v:IsA("HingeConstraint") or v:IsA("BallSocketConstraint")) then
+			v:Destroy()
+		end
+	end
+
+	if antiragdoll then
+		for i, v in pairs(c:GetDescendants()) do
+			antiragdoll(v)
+		end
+		c.DescendantAdded:Connect(antiragdoll)
+	end
+
+	if antirespawn then
+		respawnrequest()
+	end
+
+	if method == 0 then
+		wait(loadtime)
+		if not (c and c.Parent) then
+			return
+		end
+	end
+
+	if discharscripts then
+		for i, v in pairs(c:GetChildren()) do
+			if v and v.Parent and v:IsA("LocalScript") then
+				v.Disabled = true
+			end
+		end
+	elseif newanimate then
+		local animate = gp(c, "Animate", "LocalScript")
+		if animate and (not animate.Disabled) then
+			animate.Disabled = true
+		else
+			newanimate = false
+		end
+	end
+
+	local hum = c:FindFirstChildOfClass("Humanoid")
+	if hum then
+		for i, v in pairs(hum:GetPlayingAnimationTracks()) do
+			v:Stop()
+		end
+	end
+
+	if addtools then
+		for i, v in pairs(addtools:GetChildren()) do
+			if v and v.Parent and v:IsA("Tool") then
+				v.Parent = c
+			end
+		end
+	end
+
+	pcall(function()
+		settings().Physics.AllowSleep = false
+		settings().Physics.PhysicsEnvironmentalThrottle = Enum.EnviromentalPhysicsThrottle.Disabled
+	end)
+
+	local OLDscripts = {}
+
+	for i, v in pairs(c:GetDescendants()) do
+		if v.ClassName == "Script" then
+			table.insert(OLDscripts, v)
+		end
+	end
+
+	local scriptNames = {}
+
+	for i, v in pairs(c:GetDescendants()) do
+		if v and v.Parent and v:IsA("BasePart") then
+			local newName = tostring(i)
+			local exists = true
+			while exists do
+				exists = false
+				for i, v in pairs(OLDscripts) do
+					if v.Name == newName then
+						exists = true
+					end
+				end
+				if exists then
+					newName = newName .. "_"    
+				end
+			end
+			table.insert(scriptNames, newName)
+			Instance.new("Script", v).Name = newName
+		end
+	end
+
+	c.Archivable = true
+	local cl = c:Clone()
+	for i, v in pairs(cl:GetDescendants()) do
+		pcall(function()
+			v.Transparency = 1
+			v.Anchored = false
+		end)
+	end
+
+	local model = Instance.new("Model", c)
+	model.Name = model.ClassName
+
+	for i, v in pairs(c:GetChildren()) do
+		if v and v.Parent and (v ~= model) then
+			if destroyhum and v:IsA("Humanoid") then
+				v:Destroy()
+			else
+				if addtools and v:IsA("Tool") then
+					for i1, v1 in pairs(v:GetDescendants()) do
+						if v1 and v1.Parent and v1:IsA("BasePart") then
+							local bv = Instance.new("BodyVelocity", v1)
+							bv.Velocity = Vector3.new(0, 0, 0)
+							bv.MaxForce = Vector3.new(1000, 1000, 1000)
+							bv.P = 1250
+							bv.Name = "bv_" .. v.Name
+						end
+					end
+				end
+				v.Parent = model
+			end
+		end
+	end
+	local head = gp(model, "Head", "BasePart")
+	local torso = gp(model, "Torso", "BasePart") or gp(model, "UpperTorso", "BasePart")
+	if breakjoints then
+		model:BreakJoints()
+	else
+		if head and torso then
+			for i, v in pairs(model:GetDescendants()) do
+				if v and v.Parent and v:IsA("Weld") or v:IsA("Snap") or v:IsA("Glue") or v:IsA("Motor") or v:IsA("Motor6D") then
+					local save = false
+					if (v.Part0 == torso) and (v.Part1 == head) then
+						save = true
+					end
+					if (v.Part0 == head) and (v.Part1 == torso) then
+						save = true
+					end
+					if save then
+						if hedafterneck then
+							hedafterneck = v
+						end
+					else
+						v:Destroy()
+					end
+				end
+			end
+		end
+		if method == 3 then
+			spawn(function()
+				wait(loadtime)
+				if model and model.Parent then
+					model:BreakJoints()
+				end
+			end)
+		end
+	end
+
+	cl.Parent = c
+	for i, v in pairs(cl:GetChildren()) do
+		if v and v.Parent then
+			v.Parent = c
+		end
+	end
+	cl:Destroy()
+
+	local modelcolcon = nil
+	local function modelcolf()
+		if model and model.Parent then
+			for i, v in pairs(model:GetDescendants()) do
+				if v:IsA("BasePart") then
+					v.CanCollide = false
+				end
+			end
+		else
+			modelcolcon:Disconnect()
+		end
+	end
+	modelcolcon = stepped:Connect(modelcolf)
+	modelcolf()
+
+	for i, scr in pairs(model:GetDescendants()) do
+		if scr and scr.Parent and (scr.ClassName == "Script") and table.find(scriptNames, scr.Name) then
+			local Part0 = scr.Parent
+			if Part0:IsA("BasePart") then
+				for i1, scr1 in pairs(c:GetDescendants()) do
+					if scr1 and scr1.Parent and (scr1.ClassName == "Script") and (scr1.Name == scr.Name) and (not scr1:IsDescendantOf(model)) then
+						local Part1 = scr1.Parent
+						if (Part1.ClassName == Part0.ClassName) and (Part1.Name == Part0.Name) then
+							align(Part0, Part1)
+						end
+					end
+				end
+			end
+		end
+	end
+
+	if (typeof(hedafterneck) == "Instance") and head and head.Parent then
+		local aligns = {}
+		for i, v in pairs(head:GetDescendants()) do
+			if v and v.Parent and (v:IsA("AlignPosition") or v:IsA("AlignOrientation")) then
+				table.insert(aligns, v)
+				v.Enabled = false
+			end
+		end
+		spawn(function()
+			while c and c.Parent and hedafterneck and hedafterneck.Parent do
+				stepped:Wait()
+			end
+			if not (c and c.Parent and head and head.Parent) then
+				return
+			end
+			for i, v in pairs(aligns) do
+				pcall(function()
+					v.Enabled = true
+				end)
+			end
+		end)
+	end
+
+	for i, v in pairs(c:GetDescendants()) do
+		if v and v.Parent then
+			if v.ClassName == "Script" then
+				if table.find(scriptNames, v.Name) then
+					v:Destroy()
+				end
+			else
+				if not v:IsDescendantOf(model) then
+					if v:IsA("Decal") then
+						v.Transparency = 1
+					end
+					if v:IsA("ForceField") then
+						v.Visible = false
+					end
+					if v:IsA("Sound") then
+						v.Playing = false
+					end
+					if v:IsA("BillboardGui") or v:IsA("SurfaceGui") or v:IsA("ParticleEmitter") or v:IsA("Fire") or v:IsA("Smoke") or v:IsA("Sparkles") then
+						v.Enabled = false
+					end
+				end
+			end
+		end
+	end
+
+	if newanimate then
+		local animate = gp(c, "Animate", "LocalScript")
+		if animate then
+			animate.Disabled = false
+		end
+	end
+
+	if addtools then
+		for i, v in pairs(c:GetChildren()) do
+			if v and v.Parent and v:IsA("Tool") then
+				v.Parent = addtools
+			end
+		end
+	end
+
+	local hum0 = model:FindFirstChildOfClass("Humanoid")
+	local hum1 = c:FindFirstChildOfClass("Humanoid")
+	if hum1 then
+		ws.CurrentCamera.CameraSubject = hum1
+		spawn(function()
+			renderstepped:Wait()
+			if c and c.Parent and hum1 and (hum1.Parent == c) then
+				ws.CurrentCamera.CameraSubject = hum1
+			end
+		end)
+		if hum0 then
+			hum0.Changed:Connect(function(prop)
+				if (prop == "Jump") and hum1 and hum1.Parent then
+					hum1.Jump = hum0.Jump
+				end
+			end)
+		else
+			lp.Character = nil
+			lp.Character = c
+		end
+	end
+
+	local rb = Instance.new("BindableEvent", c)
+	rb.Event:Connect(function()
+		rb:Destroy()
+		sg:SetCore("ResetButtonCallback", true)
+		if destroyhum then
+			c:BreakJoints()
+			return
+		end
+		if antirespawn then
+			if hum0 and hum0.Parent and (hum0.Health > 0) then
+				model:BreakJoints()
+				hum0.Health = 0
+			end
+			respawnrequest()
+		else
+			if hum0 and hum0.Parent and (hum0.Health > 0) then
+				model:BreakJoints()
+				hum0.Health = 0
+			end
+		end
+	end)
+	sg:SetCore("ResetButtonCallback", rb)
+
+	spawn(function()
+		while c and c.Parent do
+			if hum0 and hum0.Parent and hum1 and hum1.Parent then
+				hum1.Jump = hum0.Jump
+			end
+			wait()
+		end
+		sg:SetCore("ResetButtonCallback", true)
+	end)
+
+	R15toR6 = R15toR6 and hum1 and (hum1.RigType == Enum.HumanoidRigType.R15)
+	if R15toR6 then
+		local cf = nil
+		pcall(function()
+			cf = gp(c, "HumanoidRootPart", "BasePart").CFrame
+		end)
+		if cf then
+			local R6parts = { 
+				head = {
+					Name = "Head",
+					Size = Vector3.new(2, 1, 1),
+					R15 = {
+						Head = 0
+					}
+				},
+				torso = {
+					Name = "Torso",
+					Size = Vector3.new(2, 2, 1),
+					R15 = {
+						UpperTorso = 0.2,
+						LowerTorso = -0.8
+					}
+				},
+				root = {
+					Name = "HumanoidRootPart",
+					Size = Vector3.new(2, 2, 1),
+					R15 = {
+						HumanoidRootPart = 0
+					}
+				},
+				leftArm = {
+					Name = "Left Arm",
+					Size = Vector3.new(1, 2, 1),
+					R15 = {
+						LeftHand = -0.85,
+						LeftLowerArm = -0.2,
+						LeftUpperArm = 0.4
+					}
+				},
+				rightArm = {
+					Name = "Right Arm",
+					Size = Vector3.new(1, 2, 1),
+					R15 = {
+						RightHand = -0.85,
+						RightLowerArm = -0.2,
+						RightUpperArm = 0.4
+					}
+				},
+				leftLeg = {
+					Name = "Left Leg",
+					Size = Vector3.new(1, 2, 1),
+					R15 = {
+						LeftFoot = -0.85,
+						LeftLowerLeg = -0.15,
+						LeftUpperLeg = 0.6
+					}
+				},
+				rightLeg = {
+					Name = "Right Leg",
+					Size = Vector3.new(1, 2, 1),
+					R15 = {
+						RightFoot = -0.85,
+						RightLowerLeg = -0.15,
+						RightUpperLeg = 0.6
+					}
+				}
+			}
+			for i, v in pairs(c:GetChildren()) do
+				if v:IsA("BasePart") then
+					for i1, v1 in pairs(v:GetChildren()) do
+						if v1:IsA("Motor6D") then
+							v1.Part0 = nil
+						end
+					end
+				end
+			end
+			for i, v in pairs(R6parts) do
+				local part = Instance.new("Part")
+				part.Name = v.Name
+				part.Size = v.Size
+				part.CFrame = cf
+				part.Anchored = false
+				part.Transparency = 1
+				part.CanCollide = false
+				for i1, v1 in pairs(v.R15) do
+					local R15part = gp(c, i1, "BasePart")
+					local att = gp(R15part, "att1_" .. i1, "Attachment")
+					if R15part then
+						local weld = Instance.new("Weld", R15part)
+						weld.Part0 = part
+						weld.Part1 = R15part
+						weld.C0 = CFrame.new(0, v1, 0)
+						weld.C1 = CFrame.new(0, 0, 0)
+						R15part.Massless = true
+						R15part.Name = "R15_" .. i1
+						if att then
+							att.Parent = part
+							att.Position = Vector3.new(0, v1, 0)
+							R15part.Parent = att
+						else
+							R15part.Parent = part
+						end
+					end
+				end
+				part.Parent = c
+				R6parts[i] = part
+			end
+			local R6joints = {
+				neck = {
+					Parent = R6parts.torso,
+					Name = "Neck",
+					Part0 = R6parts.torso,
+					Part1 = R6parts.head,
+					C0 = CFrame.new(0, 1, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0),
+					C1 = CFrame.new(0, -0.5, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0)
+				},
+				rootJoint = {
+					Parent = R6parts.root,
+					Name = "RootJoint" ,
+					Part0 = R6parts.root,
+					Part1 = R6parts.torso,
+					C0 = CFrame.new(0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0),
+					C1 = CFrame.new(0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0)
+				},
+				rightShoulder = {
+					Parent = R6parts.torso,
+					Name = "Right Shoulder",
+					Part0 = R6parts.torso,
+					Part1 = R6parts.rightArm,
+					C0 = CFrame.new(1, 0.5, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0),
+					C1 = CFrame.new(-0.5, 0.5, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+				},
+				leftShoulder = {
+					Parent = R6parts.torso,
+					Name = "Left Shoulder",
+					Part0 = R6parts.torso,
+					Part1 = R6parts.leftArm,
+					C0 = CFrame.new(-1, 0.5, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0),
+					C1 = CFrame.new(0.5, 0.5, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+				},
+				rightHip = {
+					Parent = R6parts.torso,
+					Name = "Right Hip",
+					Part0 = R6parts.torso,
+					Part1 = R6parts.rightLeg,
+					C0 = CFrame.new(1, -1, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0),
+					C1 = CFrame.new(0.5, 1, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+				},
+				leftHip = {
+					Parent = R6parts.torso,
+					Name = "Left Hip" ,
+					Part0 = R6parts.torso,
+					Part1 = R6parts.leftLeg,
+					C0 = CFrame.new(-1, -1, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0),
+					C1 = CFrame.new(-0.5, 1, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+				}
+			}
+			for i, v in pairs(R6joints) do
+				local joint = Instance.new("Motor6D")
+				for prop, val in pairs(v) do
+					joint[prop] = val
+				end
+				R6joints[i] = joint
+			end
+			hum1.RigType = Enum.HumanoidRigType.R6
+			hum1.HipHeight = 0
+		end
+	end
+	wait(7)
+	for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if v:IsA("Accessory") then
+			if v.Handle:FindFirstChildOfClass("Mesh") or v.Handle:FindFirstChildOfClass("SpecialMesh") then
+				if v.Handle:FindFirstChildOfClass("SpecialMesh") then
+					v.Handle:FindFirstChildOfClass("SpecialMesh"):Remove()
+				end
+			end
+		end
+	end
+
+	for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+		if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then
+			game:GetService("RunService").Heartbeat:connect(function()
+				v.Velocity = Vector3.new(0,35,0)
+				wait(0.5)
+			end)
+		end
+	end
+
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Electroware Notification";
+		Text = "Reanimation Executed!";
+		Icon = "http://www.roblox.com/asset/?id=8724185099"})
+end)
+
+UICorner_13.CornerRadius = UDim.new(0, 1)
+UICorner_13.Parent = Reanimv1Buttondhm_2
+
+FeScriptsFrame.Name = "FeScriptsFrame"
+FeScriptsFrame.Parent = MainFrame
+FeScriptsFrame.Active = true
+FeScriptsFrame.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+FeScriptsFrame.Position = UDim2.new(0.259717315, 0, 0.198142409, 0)
+FeScriptsFrame.Size = UDim2.new(0, 419, 0, 259)
+FeScriptsFrame.Visible = false
+
+FePenisv1Button.Name = "FePenisv1Button"
+FePenisv1Button.Parent = FeScriptsFrame
+FePenisv1Button.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+FePenisv1Button.Position = UDim2.new(0.145584732, 0, 0.0227827672, 0)
+FePenisv1Button.Size = UDim2.new(0, 297, 0, 37)
+FePenisv1Button.Font = Enum.Font.GothamBlack
+FePenisv1Button.Text = "FE Penis v1"
+FePenisv1Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+FePenisv1Button.TextSize = 14.000
+FePenisv1Button.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.RedBeanieWithHair.Handle.att1_Handle.Orientation = Vector3.new(-90, -0, 0)
+	game.Players.LocalPlayer.Character.RedBeanieWithHair.Handle.att1_Handle.Position = Vector3.new(0, -2, -1.9)
+	game.Players.LocalPlayer.Character.MeshPartAccessory.Handle.att1_Handle.Position = Vector3.new(1, -3.7, -1)
+	game.Players.LocalPlayer.Character.InternationalFedora.Handle.att1_Handle.Position = Vector3.new(-1, -3.7, -1)
+end)
+
+UICorner_14.CornerRadius = UDim.new(0, 1)
+UICorner_14.Parent = FePenisv1Button
+
+FePenisv2Button.Name = "FePenisv2Button"
+FePenisv2Button.Parent = FeScriptsFrame
+FePenisv2Button.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+FePenisv2Button.Position = UDim2.new(0.145584732, 0, 0.112566046, 0)
+FePenisv2Button.Size = UDim2.new(0, 297, 0, 37)
+FePenisv2Button.Font = Enum.Font.GothamBlack
+FePenisv2Button.Text = "FE Penis v2"
+FePenisv2Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+FePenisv2Button.TextSize = 14.000
+FePenisv2Button.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Position = Vector3.new(0, -2.7, -1.1)
+	game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Position = Vector3.new(0, -2.7, -3)
+	game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Orientation = Vector3.new(10, 0, 0)
+	game.Players.LocalPlayer.Character.MeshPartAccessory.Handle.att1_Handle.Position = Vector3.new(0.95, -3.7, -1)
+	game.Players.LocalPlayer.Character.InternationalFedora.Handle.att1_Handle.Position = Vector3.new(-0.8, -3.7, -1)
+end)
+
+UICorner_15.CornerRadius = UDim.new(0, 1)
+UICorner_15.Parent = FePenisv2Button
+
+FePenisv3Button.Name = "FePenisv3Button"
+FePenisv3Button.Parent = FeScriptsFrame
+FePenisv3Button.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+FePenisv3Button.Position = UDim2.new(0.145584732, 0, 0.206993297, 0)
+FePenisv3Button.Size = UDim2.new(0, 297, 0, 37)
+FePenisv3Button.Font = Enum.Font.GothamBlack
+FePenisv3Button.Text = "FE Penis v3"
+FePenisv3Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+FePenisv3Button.TextSize = 14.000
+FePenisv3Button.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Position = Vector3.new(0, -2.7, -1.1)
+	game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Position = Vector3.new(0, -2.7, -3)
+	game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Orientation = Vector3.new(10, 0, 0)
+	game.Players.LocalPlayer.Character.MeshPartAccessory.Handle.att1_Handle.Position = Vector3.new(0.95, -3.7, -1)
+	game.Players.LocalPlayer.Character.InternationalFedora.Handle.att1_Handle.Position = Vector3.new(-0.8, -3.7, -1)
+
+	local a = game.Players.LocalPlayer.Character["Head"]:FindFirstChild("att1_Head")
+	a.Position = Vector3.new(0, -2.1, -4)
+	a.Orientation = Vector3.new(80, -160, -80)
+	game.Players.LocalPlayer.Character.Head.face:Destroy()
+	game.Players.LocalPlayer.Character.Model.Head.face:Destroy()
+
+	local FePenisControls = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local TextLabel = Instance.new("TextLabel")
+	local UICorner = Instance.new("UICorner")
+	local UICorner_2 = Instance.new("UICorner")
+	local BrickUpButton = Instance.new("TextButton")
+	local UICorner_3 = Instance.new("UICorner")
+	local BrickDownButton = Instance.new("TextButton")
+	local UICorner_4 = Instance.new("UICorner")
+	local xButton2 = Instance.new("TextButton")
+	local UICorner_5 = Instance.new("UICorner")
+	local CoreGui = game:GetService("CoreGui")
+
+	FePenisControls.Name = "FePenisControls"
+	FePenisControls.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	FePenisControls.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	FePenisControls.Parent = game.CoreGui
+	FePenisControls.ResetOnSpawn = false
+
+	Frame.Parent = FePenisControls
+	Frame.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+	Frame.Position = UDim2.new(0.780616105, 0, 0.425506562, 0)
+	Frame.Size = UDim2.new(0, 143, 0, 184)
+	Frame.Active = true
+	Frame.Draggable = true
+
+	TextLabel.Parent = Frame
+	TextLabel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+	TextLabel.Size = UDim2.new(0, 143, 0, 39)
+	TextLabel.Font = Enum.Font.GothamBlack
+	TextLabel.Text = "FE Penis v3"
+	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.TextSize = 14.000
+
+	UICorner.CornerRadius = UDim.new(0, 1)
+	UICorner.Parent = TextLabel
+
+	UICorner_2.CornerRadius = UDim.new(0, 1)
+	UICorner_2.Parent = Frame
+
+	BrickUpButton.Name = "BrickUpButton"
+	BrickUpButton.Parent = Frame
+	BrickUpButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+	BrickUpButton.Position = UDim2.new(0.125874132, 0, 0.266304344, 0)
+	BrickUpButton.Size = UDim2.new(0, 106, 0, 35)
+	BrickUpButton.Font = Enum.Font.GothamBlack
+	BrickUpButton.Text = "Brick Up"
+	BrickUpButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+	BrickUpButton.TextSize = 14.000
+	BrickUpButton.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Head.att1_Head.Position = Vector3.new(0, -2.1, -4)
+		game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Orientation = Vector3.new(10, 0, 0)
+		game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Position = Vector3.new(0, -2.7, -3)
+		game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Position = Vector3.new(0, -2.7, -1.1)
+		game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Orientation = Vector3.new(-0, 0, 0)
+	end)
+
+	UICorner_3.CornerRadius = UDim.new(0, 1)
+	UICorner_3.Parent = BrickUpButton
+
+	BrickDownButton.Name = "BrickDownButton"
+	BrickDownButton.Parent = Frame
+	BrickDownButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+	BrickDownButton.Position = UDim2.new(0.125874132, 0, 0.597826123, 0)
+	BrickDownButton.Size = UDim2.new(0, 106, 0, 35)
+	BrickDownButton.Font = Enum.Font.GothamBlack
+	BrickDownButton.Text = "Brick Down"
+	BrickDownButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+	BrickDownButton.TextSize = 14.000
+	BrickDownButton.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Position = Vector3.new(0, -3, -1.1)
+		game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Orientation = Vector3.new(-20, -0, 0)
+		game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Position = Vector3.new(0, -3, -1.1)
+		game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Orientation = Vector3.new(-20, -0, 0)
+		game.Players.LocalPlayer.Character.Head.att1_Head.Position = Vector3.new(0, -3.1, -2.3)
+	end)
+
+	UICorner_4.CornerRadius = UDim.new(0, 1)
+	UICorner_4.Parent = BrickDownButton
+
+	xButton2.Name = "xButton2"
+	xButton2.Parent = Frame
+	xButton2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+	xButton2.Position = UDim2.new(0.769230723, 0, 0.864130437, 0)
+	xButton2.Size = UDim2.new(0, 33, 0, 25)
+	xButton2.Font = Enum.Font.GothamBlack
+	xButton2.Text = "x"
+	xButton2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	xButton2.TextSize = 14.000
+	xButton2.MouseButton1Down:Connect(function()
+		FePenisControls:Destroy()
+	end)
+
+	UICorner_5.CornerRadius = UDim.new(0, 1)
+	UICorner_5.Parent = xButton2
+end)
+
+UICorner_16.CornerRadius = UDim.new(0, 1)
+UICorner_16.Parent = FePenisv3Button
+
+FeAssAndBoobsButton.Name = "FeAssAndBoobsButton"
+FeAssAndBoobsButton.Parent = FeScriptsFrame
+FeAssAndBoobsButton.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+FeAssAndBoobsButton.Position = UDim2.new(0.145584732, 0, 0.299872547, 0)
+FeAssAndBoobsButton.Size = UDim2.new(0, 297, 0, 37)
+FeAssAndBoobsButton.Font = Enum.Font.GothamBlack
+FeAssAndBoobsButton.Text = "FE Ass and Boobs"
+FeAssAndBoobsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FeAssAndBoobsButton.TextSize = 14.000
+FeAssAndBoobsButton.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.MeshPartAccessory.Handle.att1_Handle.Position = Vector3.new(0.5, -1.69, -0.7)
+	game.Players.LocalPlayer.Character.MeshPartAccessory.Handle.att1_Handle.Orientation = Vector3.new(-20, -15, 0)
+	game.Players.LocalPlayer.Character.InternationalFedora.Handle.att1_Handle.Position = Vector3.new(-0.5, -1.93, -0.6)
+	game.Players.LocalPlayer.Character.InternationalFedora.Handle.att1_Handle.Orientation = Vector3.new(-20, 15, 0)
+	game.Players.LocalPlayer.Character.BagAccessory.Handle.att1_Handle.Position = Vector3.new(0.5, -1.2, -0.2)
+	game.Players.LocalPlayer.Character.BagAccessory.Handle.att1_Handle.Orientation = Vector3.new(20, 15, 0)
+	game.Players.LocalPlayer.Character["International Fedora"].Handle.att1_Handle.Position = Vector3.new(-0.5, -3.2, 0.6)
+	game.Players.LocalPlayer.Character["International Fedora"].Handle.att1_Handle.Orientation = Vector3.new(20, -15, 0)
+end)
+
+UICorner_17.CornerRadius = UDim.new(0, 1)
+UICorner_17.Parent = FeAssAndBoobsButton
+
+UICorner_18.CornerRadius = UDim.new(0, 1)
+UICorner_18.Parent = FeScriptsFrame
+
+FEthingsoveryourHeadButton.Name = "FEthingsoveryourHeadButton"
+FEthingsoveryourHeadButton.Parent = FeScriptsFrame
+FEthingsoveryourHeadButton.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+FEthingsoveryourHeadButton.Position = UDim2.new(0.145584732, 0, 0.394299805, 0)
+FEthingsoveryourHeadButton.Size = UDim2.new(0, 297, 0, 37)
+FEthingsoveryourHeadButton.Font = Enum.Font.GothamBlack
+FEthingsoveryourHeadButton.Text = "FE things over your Head"
+FEthingsoveryourHeadButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FEthingsoveryourHeadButton.TextSize = 14.000
+FEthingsoveryourHeadButton.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.InternationalFedora.Handle.att1_Handle.Position = Vector3.new(2, 7, 0)
+	game.Players.LocalPlayer.Character.MeshPartAccessory.Handle.att1_Handle.Position = Vector3.new(-2, 7.2, -0.1)
+	game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Orientation = Vector3.new(-20, 90, 0)
+	game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Position = Vector3.new(1.3, 2.55, 0)
+	game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Orientation = Vector3.new(20, 90, 0)
+	game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Position = Vector3.new(-1.3, 2.4, -0.25)
+	game.Players.LocalPlayer.Character["International Fedora"].Handle.att1_Handle.Position = Vector3.new(0, 1.7, -0.25)
+	local FeThingsOverHead = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local TextLabel = Instance.new("TextLabel")
+	local UICorner = Instance.new("UICorner")
+	local UICorner_2 = Instance.new("UICorner")
+	local TextButton = Instance.new("TextButton")
+	local UICorner_3 = Instance.new("UICorner")
+	local TextButton_2 = Instance.new("TextButton")
+	local UICorner_4 = Instance.new("UICorner")
+	local TextButton_3 = Instance.new("TextButton")
+	local UICorner_5 = Instance.new("UICorner")
+	local TextButton_4 = Instance.new("TextButton")
+	local UICorner_6 = Instance.new("UICorner")
+	local TextButton_5 = Instance.new("TextButton")
+	local UICorner_7 = Instance.new("UICorner")
+	local TextButton_6 = Instance.new("TextButton")
+	local UICorner_8 = Instance.new("UICorner")
+	local CoreGui = game:GetService("CoreGui")
+
+	FeThingsOverHead.Name = "FeThingsOverHead"
+	FeThingsOverHead.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	FeThingsOverHead.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	FeThingsOverHead.Parent = game.CoreGui
+
+	Frame.Parent = FeThingsOverHead
+	Frame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+	Frame.Position = UDim2.new(0.0894064605, 0, 0.309390277, 0)
+	Frame.Size = UDim2.new(0, 242, 0, 256)
+	Frame.Active = true
+	Frame.Draggable = true
+
+	TextLabel.Parent = Frame
+	TextLabel.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+	TextLabel.Size = UDim2.new(0, 242, 0, 43)
+	TextLabel.Font = Enum.Font.GothamBlack
+	TextLabel.Text = "FE things over your head"
+	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.TextSize = 14.000
+
+	UICorner.CornerRadius = UDim.new(0, 1)
+	UICorner.Parent = TextLabel
+
+	UICorner_2.CornerRadius = UDim.new(0, 1)
+	UICorner_2.Parent = Frame
+
+	TextButton.Parent = Frame
+	TextButton.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+	TextButton.Position = UDim2.new(0.198347107, 0, 0.2109375, 0)
+	TextButton.Size = UDim2.new(0, 145, 0, 29)
+	TextButton.Font = Enum.Font.GothamBlack
+	TextButton.Text = "Happy Face"
+	TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextButton.TextSize = 14.000
+	TextButton.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.InternationalFedora.Handle.att1_Handle.Position = Vector3.new(2, 7, 0)
+		game.Players.LocalPlayer.Character.MeshPartAccessory.Handle.att1_Handle.Position = Vector3.new(-2, 7.2, -0.1)
+		game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Orientation = Vector3.new(-20, 90, 0)
+		game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Position = Vector3.new(1.3, 2.55, 0)
+		game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Orientation = Vector3.new(20, 90, 0)
+		game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Position = Vector3.new(-1.3, 2.4, -0.25)
+		game.Players.LocalPlayer.Character["International Fedora"].Handle.att1_Handle.Position = Vector3.new(0, 1.7, -0.25)
+	end)
+
+	UICorner_3.CornerRadius = UDim.new(0, 1)
+	UICorner_3.Parent = TextButton
+
+	TextButton_2.Parent = Frame
+	TextButton_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+	TextButton_2.Position = UDim2.new(0.198347107, 0, 0.375, 0)
+	TextButton_2.Size = UDim2.new(0, 145, 0, 29)
+	TextButton_2.Font = Enum.Font.GothamBlack
+	TextButton_2.Text = "Sad Face"
+	TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextButton_2.TextSize = 14.000
+	TextButton_2.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Orientation = Vector3.new(20, 90, 0)
+		game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Position = Vector3.new(1.3, 1.95, 0)
+		game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Orientation = Vector3.new(-20, 90, 0)
+		game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Position = Vector3.new(-1.3, 1.8, -0.25)
+		game.Players.LocalPlayer.Character.InternationalFedora.Handle.att1_Handle.Position = Vector3.new(2, 7, 0)
+		game.Players.LocalPlayer.Character.MeshPartAccessory.Handle.att1_Handle.Position = Vector3.new(-2, 7.2, -0.1)
+		game.Players.LocalPlayer.Character["International Fedora"].Handle.att1_Handle.Position = Vector3.new(0, 1.7, -0.25)
+	end)
+
+	UICorner_4.CornerRadius = UDim.new(0, 1)
+	UICorner_4.Parent = TextButton_2
+
+	TextButton_3.Parent = Frame
+	TextButton_3.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+	TextButton_3.Position = UDim2.new(0.198347107, 0, 0.536803007, 0)
+	TextButton_3.Size = UDim2.new(0, 145, 0, 27)
+	TextButton_3.Font = Enum.Font.GothamBlack
+	TextButton_3.Text = "Straight Face"
+	TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextButton_3.TextSize = 14.000
+	TextButton_3.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Orientation = Vector3.new(-0, 90, 0)
+		game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Position = Vector3.new(1.3, 2.28, 0)
+		game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Orientation = Vector3.new(-0, 90, 0)
+		game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Position = Vector3.new(-1.3, 2.12, -0.25)
+		game.Players.LocalPlayer.Character.InternationalFedora.Handle.att1_Handle.Position = Vector3.new(2, 7, 0)
+		game.Players.LocalPlayer.Character.MeshPartAccessory.Handle.att1_Handle.Position = Vector3.new(-2, 7.2, -0.1)
+		game.Players.LocalPlayer.Character["International Fedora"].Handle.att1_Handle.Position = Vector3.new(0, 1.7, -0.25)
+	end)
+
+	UICorner_5.CornerRadius = UDim.new(0, 1)
+	UICorner_5.Parent = TextButton_3
+
+	TextButton_4.Parent = Frame
+	TextButton_4.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+	TextButton_4.Position = UDim2.new(0.198347107, 0, 0.6953125, 0)
+	TextButton_4.Size = UDim2.new(0, 145, 0, 29)
+	TextButton_4.Font = Enum.Font.GothamBlack
+	TextButton_4.Text = "Penis"
+	TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextButton_4.TextSize = 14.000
+	TextButton_4.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Orientation = Vector3.new(-90, 90, 0)
+		game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Position = Vector3.new(0, 3.5, 0)
+		game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Orientation = Vector3.new(90, 90, 0)
+		game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Position = Vector3.new(0, 5, -0.25)
+		game.Players.LocalPlayer.Character.InternationalFedora.Handle.att1_Handle.Position = Vector3.new(0.95, 1.7, -0.13)
+		game.Players.LocalPlayer.Character.InternationalFedora.Handle.att1_Handle.Orientation = Vector3.new(-0, 0, 0)
+		game.Players.LocalPlayer.Character.MeshPartAccessory.Handle.att1_Handle.Position = Vector3.new(-1, 1.9, -0.25)
+		game.Players.LocalPlayer.Character.MeshPartAccessory.Handle.att1_Handle.Orientation = Vector3.new(-0, 0, 0)
+		game.Players.LocalPlayer.Character["International Fedora"].Handle.att1_Handle.Position = Vector3.new(0, 1.7, -0.25)
+		game.Players.LocalPlayer.Character["International Fedora"].Handle.att1_Handle.Orientation = Vector3.new(-0, 0, 0)
+	end)
+
+	UICorner_6.CornerRadius = UDim.new(0, 1)
+	UICorner_6.Parent = TextButton_4
+
+	TextButton_5.Parent = Frame
+	TextButton_5.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+	TextButton_5.Position = UDim2.new(0.198347107, 0, 0.8671875, 0)
+	TextButton_5.Size = UDim2.new(0, 145, 0, 29)
+	TextButton_5.Font = Enum.Font.GothamBlack
+	TextButton_5.Text = "God Cross"
+	TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextButton_5.TextSize = 14.000
+	TextButton_5.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Orientation = Vector3.new(-90, 90, 0)
+		game.Players.LocalPlayer.Character["Pal Hair"].Handle.att1_Handle.Position = Vector3.new(0, 3.5, 0)
+		game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Orientation = Vector3.new(90, 90, 0)
+		game.Players.LocalPlayer.Character.LavanderHair.Handle.att1_Handle.Position = Vector3.new(0, 5, -0.25)
+		game.Players.LocalPlayer.Character.InternationalFedora.Handle.att1_Handle.Position = Vector3.new(0.95, 4.2, -0.13)
+		game.Players.LocalPlayer.Character.InternationalFedora.Handle.att1_Handle.Orientation = Vector3.new(-0, 0, 0)
+		game.Players.LocalPlayer.Character.MeshPartAccessory.Handle.att1_Handle.Position = Vector3.new(-1, 4.4, -0.25)
+		game.Players.LocalPlayer.Character.MeshPartAccessory.Handle.att1_Handle.Orientation = Vector3.new(-0, 0, 0)
+		game.Players.LocalPlayer.Character["International Fedora"].Handle.att1_Handle.Position = Vector3.new(0.04, 1.7, -0.24)
+		game.Players.LocalPlayer.Character["International Fedora"].Handle.att1_Handle.Orientation = Vector3.new(-0, 0, 0)
+	end)
+
+	UICorner_7.CornerRadius = UDim.new(0, 1)
+	UICorner_7.Parent = TextButton_5
+
+	TextButton_6.Parent = Frame
+	TextButton_6.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+	TextButton_6.Position = UDim2.new(0.88429755, 0, 0.8984375, 0)
+	TextButton_6.Size = UDim2.new(0, 28, 0, 26)
+	TextButton_6.Font = Enum.Font.GothamBlack
+	TextButton_6.Text = "x"
+	TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextButton_6.TextSize = 14.000
+	TextButton_6.MouseButton1Down:Connect(function()
+		FeThingsOverHead:Destroy()
+	end)
+
+	UICorner_8.CornerRadius = UDim.new(0, 1)
+	UICorner_8.Parent = TextButton_6
+end)
+
+UICorner_19.CornerRadius = UDim.new(0, 1)
+UICorner_19.Parent = FEthingsoveryourHeadButton
+
+NeededHatsFrame.Name = "NeededHatsFrame"
+NeededHatsFrame.Parent = MainFrame
+NeededHatsFrame.Active = true
+NeededHatsFrame.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+NeededHatsFrame.Position = UDim2.new(0.259717315, 0, 0.198142409, 0)
+NeededHatsFrame.Size = UDim2.new(0, 419, 0, 259)
+NeededHatsFrame.Visible = false
+
+CFPV1HI.Name = "CFPV1HI"
+CFPV1HI.Parent = NeededHatsFrame
+CFPV1HI.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+CFPV1HI.Position = UDim2.new(0.145584732, 0, 0.0227827672, 0)
+CFPV1HI.Size = UDim2.new(0, 297, 0, 37)
+CFPV1HI.Font = Enum.Font.GothamBlack
+CFPV1HI.Text = "Copy FE Penis v1 Hat Ids"
+CFPV1HI.TextColor3 = Color3.fromRGB(255, 255, 255)
+CFPV1HI.TextSize = 14.000
+CFPV1HI.MouseButton1Down:Connect(function()
+	setclipboard("3992084515, 4246228452, 1103003368")
+end)
+
+UICorner_20.CornerRadius = UDim.new(0, 1)
+UICorner_20.Parent = CFPV1HI
+
+CFPV2HI.Name = "CFPV2HI"
+CFPV2HI.Parent = NeededHatsFrame
+CFPV2HI.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+CFPV2HI.Position = UDim2.new(0.145584732, 0, 0.111018062, 0)
+CFPV2HI.Size = UDim2.new(0, 297, 0, 37)
+CFPV2HI.Font = Enum.Font.GothamBlack
+CFPV2HI.Text = "Copy FE Penis v2 Hat Ids"
+CFPV2HI.TextColor3 = Color3.fromRGB(255, 255, 255)
+CFPV2HI.TextSize = 14.000
+CFPV2HI.MouseButton1Down:Connect(function()
+	setclipboard("3992084515, 4246228452, 451220849, 63690008")
+end)
+
+UICorner_21.CornerRadius = UDim.new(0, 1)
+UICorner_21.Parent = CFPV2HI
+
+CFPV3HI.Name = "CFPV3HI"
+CFPV3HI.Parent = NeededHatsFrame
+CFPV3HI.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+CFPV3HI.Position = UDim2.new(0.145584732, 0, 0.202349335, 0)
+CFPV3HI.Size = UDim2.new(0, 297, 0, 37)
+CFPV3HI.Font = Enum.Font.GothamBlack
+CFPV3HI.Text = "Copy FE Penis v3 Hat Ids"
+CFPV3HI.TextColor3 = Color3.fromRGB(255, 255, 255)
+CFPV3HI.TextSize = 14.000
+CFPV3HI.MouseButton1Down:Connect(function()
+	setclipboard("4246228452, 3992084515, 617605556, 451220849, 63690008")
+end)
+
+UICorner_22.CornerRadius = UDim.new(0, 1)
+UICorner_22.Parent = CFPV3HI
+
+CFAABHI.Name = "CFAABHI"
+CFAABHI.Parent = NeededHatsFrame
+CFAABHI.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+CFAABHI.Position = UDim2.new(0.145584732, 0, 0.293680578, 0)
+CFAABHI.Size = UDim2.new(0, 297, 0, 37)
+CFAABHI.Font = Enum.Font.GothamBlack
+CFAABHI.Text = "Copy FE Ass and Boobs Hat Ids"
+CFAABHI.TextColor3 = Color3.fromRGB(255, 255, 255)
+CFAABHI.TextSize = 14.000
+CFAABHI.MouseButton1Down:Connect(function()
+	setclipboard("4819740796, 4622081834, 3992084515, 4381832739")
+end)
+
+UICorner_23.CornerRadius = UDim.new(0, 1)
+UICorner_23.Parent = CFAABHI
+
+UICorner_24.CornerRadius = UDim.new(0, 1)
+UICorner_24.Parent = NeededHatsFrame
+
+CFTOYHHI.Name = "CFTOYHHI"
+CFTOYHHI.Parent = NeededHatsFrame
+CFTOYHHI.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+CFTOYHHI.Position = UDim2.new(0.145584732, 0, 0.388107836, 0)
+CFTOYHHI.Size = UDim2.new(0, 297, 0, 37)
+CFTOYHHI.Font = Enum.Font.GothamBlack
+CFTOYHHI.Text = "Copy FE things over your Head Hat Ids"
+CFTOYHHI.TextColor3 = Color3.fromRGB(255, 255, 255)
+CFTOYHHI.TextSize = 14.000
+CFTOYHHI.MouseButton1Down:Connect(function()
+	setclipboard("451220849, 63690008, 4819740796, 4622081834, 3992084515, 4381832739")
+end)
+
+UICorner_25.CornerRadius = UDim.new(0, 1)
+UICorner_25.Parent = CFTOYHHI
+
+CreditsFrame.Name = "CreditsFrame"
+CreditsFrame.Parent = MainFrame
+CreditsFrame.Active = true
+CreditsFrame.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+CreditsFrame.Position = UDim2.new(0.259717315, 0, 0.198142409, 0)
+CreditsFrame.Size = UDim2.new(0, 419, 0, 259)
+
+TextLabel_2.Parent = CreditsFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(0, 403, 0, 50)
+TextLabel_2.Font = Enum.Font.GothamBlack
+TextLabel_2.Text = "Script made by ayoyao#3744"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = CreditsFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(-0.00238663494, 0, 0.0766867548, 0)
+TextLabel_3.Size = UDim2.new(0, 404, 0, 50)
+TextLabel_3.Font = Enum.Font.GothamBlack
+TextLabel_3.Text = "UI made by Cyrusous#3853 and ayoyao#3744"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = CreditsFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(-0.00238663494, 0, 0.154086143, 0)
+TextLabel_4.Size = UDim2.new(0, 404, 0, 50)
+TextLabel_4.Font = Enum.Font.GothamBlack
+TextLabel_4.Text = "Discord server made by Cyrusous#3853"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+UICorner_25.CornerRadius = UDim.new(0, 1)
+UICorner_25.Parent = CreditsFrame
+
+UpdatesFrame.Name = "UpdatesFrame"
+UpdatesFrame.Parent = MainFrame
+UpdatesFrame.Active = true
+UpdatesFrame.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+UpdatesFrame.Position = UDim2.new(0.259717315, 0, 0.198142409, 0)
+UpdatesFrame.Size = UDim2.new(0, 419, 0, 259)
+UpdatesFrame.Visible = false
+
+UICorner_26.CornerRadius = UDim.new(0, 1)
+UICorner_26.Parent = UpdatesFrame
+
+TextLabel_5.Parent = UpdatesFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Size = UDim2.new(0, 419, 0, 50)
+TextLabel_5.Font = Enum.Font.GothamBlack
+TextLabel_5.Text = "Upgraded reanimations"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+TextLabel_6.Parent = UpdatesFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(-0.00238663494, 0, 0.0696594417, 0)
+TextLabel_6.Size = UDim2.new(0, 419, 0, 50)
+TextLabel_6.Font = Enum.Font.GothamBlack
+TextLabel_6.Text = "New FE Script"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+
+TextLabel_7.Parent = UpdatesFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0, 0, 0.147058815, 0)
+TextLabel_7.Size = UDim2.new(0, 419, 0, 50)
+TextLabel_7.Font = Enum.Font.GothamBlack
+TextLabel_7.Text = "fixed some bugs"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+
+-- Scripts:
+
+local function FEAVR_fake_script() -- ReanimationsButton.LocalScript 
+	local script = Instance.new('LocalScript', ReanimationsButton)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.ReanimationsFrame.Visible = true
+		script.Parent.Parent.Parent.FeScriptsFrame.Visible = false
+		script.Parent.Parent.Parent.NeededHatsFrame.Visible = false
+		script.Parent.Parent.Parent.CreditsFrame.Visible = false
+		script.Parent.Parent.Parent.UpdatesFrame.Visible = false
+	end)
+end
+coroutine.wrap(FEAVR_fake_script)()
+local function DBAY_fake_script() -- FeScriptsButton.LocalScript 
+	local script = Instance.new('LocalScript', FeScriptsButton)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.ReanimationsFrame.Visible = false
+		script.Parent.Parent.Parent.FeScriptsFrame.Visible = true
+		script.Parent.Parent.Parent.NeededHatsFrame.Visible = false
+		script.Parent.Parent.Parent.CreditsFrame.Visible = false
+		script.Parent.Parent.Parent.UpdatesFrame.Visible = false
+	end)
+end
+coroutine.wrap(DBAY_fake_script)()
+local function ZACJNM_fake_script() -- NeededHatsButton.LocalScript 
+	local script = Instance.new('LocalScript', NeededHatsButton)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.ReanimationsFrame.Visible = false
+		script.Parent.Parent.Parent.FeScriptsFrame.Visible = false
+		script.Parent.Parent.Parent.NeededHatsFrame.Visible = true
+		script.Parent.Parent.Parent.CreditsFrame.Visible = false
+		script.Parent.Parent.Parent.UpdatesFrame.Visible = false
+	end)
+end
+coroutine.wrap(ZACJNM_fake_script)()
+local function WBYJTU_fake_script() -- CreditsButton.LocalScript 
+	local script = Instance.new('LocalScript', CreditsButton)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.ReanimationsFrame.Visible = false
+		script.Parent.Parent.Parent.FeScriptsFrame.Visible = false
+		script.Parent.Parent.Parent.NeededHatsFrame.Visible = false
+		script.Parent.Parent.Parent.CreditsFrame.Visible = true
+		script.Parent.Parent.Parent.UpdatesFrame.Visible = false
+	end)
+end
+coroutine.wrap(WBYJTU_fake_script)()
+local function VWET_fake_script() -- UpdatesButton.LocalScript 
+	local script = Instance.new('LocalScript', UpdatesButton)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.ReanimationsFrame.Visible = false
+		script.Parent.Parent.Parent.FeScriptsFrame.Visible = false
+		script.Parent.Parent.Parent.NeededHatsFrame.Visible = false
+		script.Parent.Parent.Parent.CreditsFrame.Visible = false
+		script.Parent.Parent.Parent.UpdatesFrame.Visible = true
+	end)
+end
+coroutine.wrap(VWET_fake_script)()
+		
+	else
+		WrongKey.Visible = true
+	end
+end)
+
+UICorner_3.CornerRadius = UDim.new(0, 1)
+UICorner_3.Parent = TextButton
+
+ImageLabel.Parent = KeyFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.3884058, 0, 0.124069482, 0)
+ImageLabel.Size = UDim2.new(0, 75, 0, 75)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=9296791795"
+
+Frame.Parent = KeyFrame
+Frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Frame.Size = UDim2.new(0, 345, 0, 42)
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.098550722, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 278, 0, 33)
+TextLabel_2.Font = Enum.Font.GothamBlack
+TextLabel_2.Text = "Electroware"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+TextButton_2.Position = UDim2.new(0.872463763, 0, 0, 0)
+TextButton_2.Size = UDim2.new(0, 44, 0, 42)
+TextButton_2.Font = Enum.Font.GothamBlack
+TextButton_2.Text = "x"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 14.000
+TextButton_2.MouseButton1Down:Connect(function()
+	OfficialElectrowareKey:Destroy()
+end)
+
+UICorner_4.CornerRadius = UDim.new(0, 1)
+UICorner_4.Parent = TextButton_2
+
+UICorner_5.CornerRadius = UDim.new(0, 1)
+UICorner_5.Parent = Frame
+
+TextLabel_3.Parent = KeyFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0, 0, 0.779156327, 0)
+TextLabel_3.Size = UDim2.new(0, 345, 0, 16)
+TextLabel_3.Font = Enum.Font.GothamBlack
+TextLabel_3.Text = "Key on our discord server!"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = KeyFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0, 0, 0.818858564, 0)
+TextLabel_4.Size = UDim2.new(0, 345, 0, 16)
+TextLabel_4.Font = Enum.Font.GothamBlack
+TextLabel_4.Text = "https://discord.gg/4mCaz3ZQ5d"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+TextButton_3.Parent = KeyFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+TextButton_3.Position = UDim2.new(0.284057975, 0, 0.883374691, 0)
+TextButton_3.Size = UDim2.new(0, 149, 0, 37)
+TextButton_3.Font = Enum.Font.GothamBlack
+TextButton_3.Text = "Click to copy Link!"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+TextButton_3.MouseButton1Down:Connect(function()
+	setclipboard("https://discord.gg/4mCaz3ZQ5d")
+end)
+
+UICorner_6.CornerRadius = UDim.new(0, 1)
+UICorner_6.Parent = TextButton_3
+
+WrongKey.Name = "WrongKey"
+WrongKey.Parent = KeyFrame
+WrongKey.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+WrongKey.Position = UDim2.new(8.42213631e-05, 0, -0.000712782145, 0)
+WrongKey.Size = UDim2.new(0, 345, 0, 403)
+WrongKey.Visible = false
+
+TextLabel_5.Parent = WrongKey
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_5.Position = UDim2.new(0.162389949, 0, 0.444233358, 0)
+TextLabel_5.Size = UDim2.new(0, 232, 0, 78)
+TextLabel_5.Font = Enum.Font.GothamBlack
+TextLabel_5.Text = "Wrong Key!"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+UICorner_7.Parent = TextLabel_5
+
+UICorner_8.Parent = WrongKey
+
+ImageLabel_2.Parent = WrongKey
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.313043505, 0, 0.0942928046, 0)
+ImageLabel_2.Size = UDim2.new(0, 127, 0, 125)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=9296791795"
+
+TextButton_4.Parent = WrongKey
+TextButton_4.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+TextButton_4.Position = UDim2.new(0.192416251, 0, 0.717121243, 0)
+TextButton_4.Size = UDim2.new(0, 213, 0, 75)
+TextButton_4.Font = Enum.Font.GothamBlack
+TextButton_4.Text = "Try again"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 1)
+UICorner_9.Parent = TextButton_4
+
+-- Scripts:
+
+local function DRMZ_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	script.Parent.Parent.TextButton.MouseButton1Down:Connect(function()
+		if script.Parent.Text == "cnajcj556dakf" then
+			script.Parent.Parent.Parent.Parent:Destroy()
+		else
+			print("Just get the fucking Key from the Discord server.")
+			script.Parent.Parent.Parent.Parent.WrongKey.Visible = true
+		end
+	end)
+end
+coroutine.wrap(DRMZ_fake_script)()
+local function BDNB_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(BDNB_fake_script)()
